@@ -1,0 +1,5 @@
+The goal of this project is to build an analog phone switch supporting up to 8 stations and 2 analog trunks.  The switching itself is to be electromechanical in nature, but the control of the switching process and monitoring of lines will be controlled with a microcontroller.  This switch will be designed to be as modular as possible, as with the PCB manufacturing, it’s common to get multiple boards for your money, making it ideal that many of the boards are identical.
+
+PCB Files are from KiCad, and simulation files are for LTSpice.
+
+Simulation models are property of their respective companies.

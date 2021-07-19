@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PhoneInterfaceParts)(type Legacy)(uri ${KIPRJMOD}/PhoneInterfaceParts.lib)(options "")(descr ""))
+)

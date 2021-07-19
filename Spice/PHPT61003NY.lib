@@ -1,0 +1,89 @@
+**********************************************************
+*
+* PHPT61003NY
+*
+* Nexperia
+*
+* NPN high power bipolar transistor
+* IC   = 3  A
+* VCEO = 100 V (max)
+* hFE  = 250 @ 10 V/500 mA (typ)
+*
+*
+* Package pinning does not match Spice model pinning.
+* Package: SOT 669
+*
+* Package Pin 1:  Emitter
+* Package Pin 2:  Emitter
+* Package Pin 3:  Emitter
+* Package Pin 4:  Base
+* Package Pin mb: Collector
+*
+*
+* Extraction date (week/year): 48/2013
+* Spicemodel does not include temperature dependency
+*
+**********************************************************
+*#
+.SUBCKT PHPT61003NY 1 2 3
+*
+* Diode D1 is dedicated to improve modeling of reverse
+* mode of operation and does not reflect a physical device.
+*
+Q1 1 2 3 MAIN
+D1 2 1 DIODE
+*
+.MODEL MAIN NPN
++ IS = 5.246E-013
++ NF = 0.987
++ ISE = 5.47E-015
++ NE = 1.276
++ BF = 288
++ IKF = 0.2234
++ VAF = 37.5
++ NR = 0.9885
++ ISC = 3.54E-018
++ NC = 0.8903
++ BR = 110.3
++ IKR = 1
++ VAR = 70
++ RB = 25
++ IRB = 0.00045
++ RBM = 5.8
++ RE = 0.01991
++ RC = 0.02784
++ XTB = 0
++ EG = 1.11
++ XTI = 3
++ CJE = 5.402E-010
++ VJE = 0.7769
++ MJE = 0.3159
++ TF = 6E-010
++ XTF = 18
++ VTF = 1.8
++ ITF = 1.1
++ PTF = 0
++ CJC = 4.47E-011
++ VJC = 0.2984
++ MJC = 0.3832
++ XCJC = 1
++ TR = 5E-007
++ CJS = 0
++ VJS = 0.75
++ MJS = 0.333
++ FC = 0.8
+.MODEL DIODE D
++ IS = 1.216E-013
++ N = 0.97
++ BV = 1000
++ IBV = 0.001
++ RS = 500
++ CJO = 0
++ VJ = 1
++ M = 0.5
++ FC = 0
++ TT = 0
++ EG = 1.11
++ XTI = 3
+.ENDS
+*
