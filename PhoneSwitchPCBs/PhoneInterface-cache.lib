@@ -120,13 +120,17 @@ X C 5 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PhoneInterfaceParts_Relay_DPDT
+# Relay_EC2-5NU
 #
-DEF PhoneInterfaceParts_Relay_DPDT K 0 20 Y Y 1 F N
+DEF Relay_EC2-5NU K 0 20 Y Y 1 F N
 F0 "K" 600 350 50 H V C CNN
-F1 "PhoneInterfaceParts_Relay_DPDT" 750 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F1 "Relay_EC2-5NU" 750 250 50 H V C CNN
+F2 "Relay_THT:Relay_DPDT_Kemet_EC2" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS EC2-4.5NU EC2-5NU EC2-12NU EC2-24NU
+$FPLIST
+ Relay*THT*Kemet*EC2*
+$ENDFPLIST
 DRAW
 T 0 -365 115 50 0 1 1 + Normal 0 C C
 S -600 200 600 -200 1 1 10 f

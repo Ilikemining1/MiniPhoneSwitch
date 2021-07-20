@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EC2-5NU
+D General purpose DPDT Relay Symbol
+K signal relay double pole double throw DPDT DC coil non latching
+F https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
+$ENDCMP
+#
 $CMP PHPT61003NYX
 D 100V Vce, 3A NPN
 K power NPN Transistor

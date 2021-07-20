@@ -10,10 +10,11 @@ Electronic Controlled Electromechanical Switch:
 	Tone Banks:
 		2 tone banks, need at least one for each internal voice bus
 		Produce call progress tones and decode DTMF
-		perferably on separate buses then regular voice paths to allow for dial tone even with two calls in progress
+		Separate tone buses
 	Internal Buses:
 		2 internal voice paths, allowing for two simulaneous calls with any number of stations attached (multi-way calling)
 		Can be used for internal calls or connected to a free analog trunk to place an outgoing call
+		2 tone buses individually selectable.
 		
 	Electrical Parameters:
 		Station Cards:
@@ -21,7 +22,7 @@ Electronic Controlled Electromechanical Switch:
 			Ring / Voice Relay
 			Hook Detection:
 				Optocoupler feeds schmitt trigger with filter, and no filter to produce two outputs
-				Dual Schmitt Trigger: https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G14_Q100.pdf
+				Dual Schmitt Trigger: 74HCT2G14-Q100 https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G14_Q100.pdf
 				Optocoupler: TCMD1000 https://www.mouser.com/datasheet/2/427/tcmd1000-1767230.pdf
 			Gyrators:
 				NPN: PHPT61003NY https://www.mouser.com/datasheet/2/916/PHPT61003NY-1320466.pdf
@@ -29,4 +30,5 @@ Electronic Controlled Electromechanical Switch:
 			Connector: RJE0112001 https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rje01x2001.pdf
 		Switching Fabric:
 			Relay options: EC2-5NU https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
+			Or: NLASB3157 https://www.mouser.com/datasheet/2/308/1/NLASB3157_D-2317978.pdf
 			

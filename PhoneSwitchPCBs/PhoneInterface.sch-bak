@@ -295,4 +295,8 @@ F 3 "https://www.mouser.com/datasheet/2/916/PHPT61003NY-1320466.pdf" H 5600 4150
 	1    5600 4150
 	1    0    0    -1  
 $EndComp
+Text Label 5450 3550 0    50   ~ 0
+TIP
+Text Label 5450 3650 0    50   ~ 0
+RING
 $EndSCHEMATC
