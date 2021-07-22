@@ -24,6 +24,7 @@ Electronic Controlled Electromechanical Switch:
 				Optocoupler feeds schmitt trigger with filter, and no filter to produce two outputs
 				Dual Schmitt Trigger: 74HCT2G14-Q100 https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G14_Q100.pdf
 				Optocoupler: TCMD1000 https://www.mouser.com/datasheet/2/427/tcmd1000-1767230.pdf
+				Ring Filter Bypass: NS5B1G384DFT2G https://www.mouser.com/datasheet/2/308/1/NS5B1G384_D-2318342.pdf
 			Gyrators:
 				NPN: PHPT61003NY https://www.mouser.com/datasheet/2/916/PHPT61003NY-1320466.pdf
 				PNP: PHPT61003PY https://www.mouser.com/datasheet/2/916/PHPT61003PY-1599682.pdf
@@ -40,13 +41,13 @@ Electronic Controlled Electromechanical Switch:
 					4 Trunk Routing (Output)
 				Stations:
 					8 Ring Enable (Output)
-					16 Hook Detect / Dial Pulse (Input)
+					8 Hook Detect / Dial Pulse (Input)
 					32 Call Routing (Output)
 				Tone Banks:
 					8 DTMF Decoder Sense (Input)
 					Currently TBD Output for Tone Generation, probably I2C (Output)
 				
-				Total: 26 Inputs, 44 Outputs, Total 70 GPIO
+				Total: 18 Inputs, 44 Outputs, Total 62 GPIO
 				This is an estimate and will likely change with time and the design.  
 				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf
 				
