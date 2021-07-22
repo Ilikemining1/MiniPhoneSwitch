@@ -23,4 +23,16 @@ D General purpose DPDT Relay Symbol
 K signal relay double pole double throw DPDT DC coil non latching
 $ENDCMP
 #
+$CMP TCMD1000
+D Optocoupler, Vce 35V, CTR 50-600%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
+F https://www.mouser.com/datasheet/2/427/tcmd1000-1767230.pdf
+$ENDCMP
+#
+$CMP XP261N7002TR-G
+D 0.15A Id, 60V Vds, N-Channel MOSFET, 1.5V Logic Level, SOT-23-3
+K N-Channel MOSFET Logic-Level
+F https://www.torexsemi.com/file/xp261n7002tr/XP261N7002TR.pdf
+$ENDCMP
+#
 #End Doc Library

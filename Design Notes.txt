@@ -15,11 +15,11 @@ Electronic Controlled Electromechanical Switch:
 		2 internal voice paths, allowing for two simulaneous calls with any number of stations attached (multi-way calling)
 		Can be used for internal calls or connected to a free analog trunk to place an outgoing call
 		2 tone buses individually selectable.
-		
 	Electrical Parameters:
 		Station Cards:
-			Gyrators to provide balaced line, made with PHPT61003NY and PHPT61003PY from Nexperia
+			Gyrators to provide balaced line
 			Ring / Voice Relay
+			On-Station-Card Routing for modular design and cost savings
 			Hook Detection:
 				Optocoupler feeds schmitt trigger with filter, and no filter to produce two outputs
 				Dual Schmitt Trigger: 74HCT2G14-Q100 https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G14_Q100.pdf
@@ -29,9 +29,10 @@ Electronic Controlled Electromechanical Switch:
 				NPN: PHPT61003NY https://www.mouser.com/datasheet/2/916/PHPT61003NY-1320466.pdf
 				PNP: PHPT61003PY https://www.mouser.com/datasheet/2/916/PHPT61003PY-1599682.pdf
 			Connector: RJE0112001 https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rje01x2001.pdf
-		Switching Fabric:
-			Relay options: EC2-5NU https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
-			Or: NLASB3157 https://www.mouser.com/datasheet/2/308/1/NLASB3157_D-2317978.pdf
+			Switching Fabric:
+				Relay options: EC2-5NU https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
+				Relay Driver FET: XP261N7002TR-G https://www.torexsemi.com/file/xp261n7002tr/XP261N7002TR.pdf
+				Or: NLASB3157 https://www.mouser.com/datasheet/2/308/1/NLASB3157_D-2317978.pdf
 		Tone Banks:
 			DTMF Decoder: MT8870 https://www.microsemi.com/document-portal/doc_view/127041-mt8870d-datasheet-oct2006
 		Microcontroller:
