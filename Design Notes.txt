@@ -22,7 +22,7 @@ Electronic Controlled Electromechanical Switch:
 			On-Station-Card Routing for modular design and cost savings
 			Hook Detection:
 				Optocoupler feeds schmitt trigger with filter, and no filter to produce two outputs
-				Dual Schmitt Trigger: 74HCT2G14-Q100 https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G14_Q100.pdf
+				Dual Schmitt Trigger: 74HC2G14-Q100 https://assets.nexperia.com/documents/data-sheet/74HC_HCT2G14_Q100.pdf
 				Optocoupler: TCMD1000 https://www.mouser.com/datasheet/2/427/tcmd1000-1767230.pdf
 				Ring Filter Bypass: NS5B1G384DFT2G https://www.mouser.com/datasheet/2/308/1/NS5B1G384_D-2318342.pdf
 			Gyrators:
@@ -33,6 +33,8 @@ Electronic Controlled Electromechanical Switch:
 				Relay options: EC2-5NU https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
 				Relay Driver FET: XP261N7002TR-G https://www.torexsemi.com/file/xp261n7002tr/XP261N7002TR.pdf
 				Or: NLASB3157 https://www.mouser.com/datasheet/2/308/1/NLASB3157_D-2317978.pdf
+			Protection:
+				PolyFuse: 1206L005/60WR https://www.mouser.com/datasheet/2/240/Littelfuse_PTC_1206L_Datasheet_pdf-477012.pdf
 		Tone Banks:
 			DTMF Decoder: MT8870 https://www.microsemi.com/document-portal/doc_view/127041-mt8870d-datasheet-oct2006
 		Microcontroller:
