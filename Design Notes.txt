@@ -1,10 +1,10 @@
 Electronic Controlled Electromechanical Switch:
 	Trunks:
-		2 POTS trunk lines
+		0-2 POTS trunk lines
 		DID support if possible, would need to parse Caller ID
 		If not, programmable extension ringing
 	Stations:
-		8 Analog stations, each with programmable DNs.  
+		8-10 Analog stations, each with programmable DNs.  
 		DTMF and Pulse Support
 		Properish full ring voltage, 90v RMS 20Hz Sine
 	Tone Banks:
@@ -31,9 +31,9 @@ Electronic Controlled Electromechanical Switch:
 			Switching Fabric:
 				Relay options: EC2-5NU https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
 				Relay Driver FET: XP261N7002TR-G https://www.torexsemi.com/file/xp261n7002tr/XP261N7002TR.pdf
-				Or: NLASB3157 https://www.mouser.com/datasheet/2/308/1/NLASB3157_D-2317978.pdf
 			Protection:
 				PolyFuse: 1206L005/60WR https://www.mouser.com/datasheet/2/240/Littelfuse_PTC_1206L_Datasheet_pdf-477012.pdf
+				Fuse (100mA slow blo): 0034.6605 https://www.mouser.com/datasheet/2/358/typ_MST_250-1888842.pdf
 		Tone Banks:
 			DTMF Decoder: MT8870 https://www.microsemi.com/document-portal/doc_view/127041-mt8870d-datasheet-oct2006
 		Microcontroller:
@@ -48,6 +48,8 @@ Electronic Controlled Electromechanical Switch:
 				Tone Banks:
 					8 DTMF Decoder Sense (Input)
 					Currently TBD Output for Tone Generation, probably I2C (Output)
+				Device Sense:
+					10 Analog Inputs
 				
 				Total: 18 Inputs, 44 Outputs, Total 62 GPIO
 				This is an estimate and will likely change with time and the design.  
