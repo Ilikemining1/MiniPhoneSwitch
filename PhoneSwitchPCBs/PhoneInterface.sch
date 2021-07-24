@@ -808,14 +808,10 @@ Wire Notes Line
 	10900 650  10900 4550
 Text Notes 6750 800  0    50   ~ 0
 Line Power, Ring Trip, and Ringer Control
-Text Label 1350 2300 2    50   ~ 0
+Text Label 1300 2300 2    50   ~ 0
 RINGR
-Text Label 1950 2300 0    50   ~ 0
+Text Label 2000 2300 0    50   ~ 0
 RINGT
-Wire Wire Line
-	1900 2300 1950 2300
-Wire Wire Line
-	1350 2300 1400 2300
 Text Label 6150 2100 0    50   ~ 0
 AUDT
 Text Label 6150 2500 0    50   ~ 0
@@ -880,23 +876,15 @@ Wire Wire Line
 Wire Wire Line
 	2800 1600 2800 2800
 Wire Wire Line
-	2800 2800 1900 2800
-Wire Wire Line
 	3250 1800 2750 1800
 Wire Wire Line
 	2750 1800 2750 2600
-Wire Wire Line
-	2750 2600 1900 2600
 Wire Wire Line
 	3250 2000 2850 2000
 Wire Wire Line
 	2850 2000 2850 2700
 Wire Wire Line
-	2850 2700 1900 2700
-Wire Wire Line
 	2900 2200 2900 2500
-Wire Wire Line
-	2900 2500 1900 2500
 Wire Wire Line
 	2900 2200 3250 2200
 Wire Wire Line
@@ -1363,17 +1351,6 @@ Wire Notes Line
 	2300 5050 750  5050
 Wire Notes Line
 	2300 6700 750  6700
-$Comp
-L Connector_Generic:Conn_02x13_Odd_Even J?
-U 1 1 6120AF75
-P 1700 2200
-F 0 "J?" H 1750 1375 50  0000 C CNN
-F 1 "Conn_02x13_Odd_Even" H 1750 1466 50  0000 C CNN
-F 2 "" H 1700 2200 50  0001 C CNN
-F 3 "~" H 1700 2200 50  0001 C CNN
-	1    1700 2200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1300 1600 1400 1600
 $Comp
@@ -1552,12 +1529,37 @@ Wire Wire Line
 	1100 1700 1350 1700
 Wire Wire Line
 	1100 2400 1400 2400
+Text Notes 800  6650 0    50   ~ 0
+Filters and Fusing
 Wire Wire Line
-	1900 2200 2200 2200
+	1900 1700 2200 1700
 Wire Wire Line
-	2200 2400 1900 2400
+	2800 2800 1900 2800
+Wire Wire Line
+	2850 2700 1900 2700
+Wire Wire Line
+	2750 2600 1900 2600
+Wire Wire Line
+	2900 2500 1900 2500
 Wire Wire Line
 	1900 1600 2200 1600
 Wire Wire Line
-	1900 1700 2200 1700
+	2200 2400 1900 2400
+Wire Wire Line
+	1900 2200 2200 2200
+$Comp
+L Connector_Generic:Conn_02x13_Odd_Even J?
+U 1 1 6120AF75
+P 1700 2200
+F 0 "J?" H 1750 1375 50  0000 C CNN
+F 1 "Interface" H 1750 1466 50  0000 C CNN
+F 2 "" H 1700 2200 50  0001 C CNN
+F 3 "~" H 1700 2200 50  0001 C CNN
+	1    1700 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 2300 2000 2300
+Wire Wire Line
+	1300 2300 1400 2300
 $EndSCHEMATC
