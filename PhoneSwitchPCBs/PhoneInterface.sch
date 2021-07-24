@@ -235,7 +235,7 @@ F 1 "PHPT61003PYX" V 9400 1900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:LFPAK56" H 9350 2125 50  0001 L CIN
 F 3 "https://www.mouser.com/datasheet/2/916/PHPT61003PY-1599682.pdf" H 9150 2200 50  0001 L CNN
 	1    9150 2200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L PhoneInterfaceParts:PHPT61003NYX Q?
