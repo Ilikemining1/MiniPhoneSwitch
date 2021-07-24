@@ -24,10 +24,10 @@ K NPN DC opto
 F https://www.mouser.com/datasheet/2/427/tcmd1000-1767230.pdf
 $ENDCMP
 #
-$CMP XP261N7002TR-G
-D 0.15A Id, 60V Vds, N-Channel MOSFET, 1.5V Logic Level, SOT-23-3
+$CMP XP231N02013R-G
+D 0.2A Id, 30V Vds, N-Channel MOSFET, Logic Level, SOT-323-3
 K N-Channel MOSFET Logic-Level
-F https://www.torexsemi.com/file/xp261n7002tr/XP261N7002TR.pdf
+F https://www.torexsemi.com/file/XP231N02013R/XP231N02013R.pdf
 $ENDCMP
 #
 #End Doc Library

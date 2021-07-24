@@ -16,6 +16,11 @@ Electronic Controlled Electromechanical Switch:
 		Can be used for internal calls or connected to a free analog trunk to place an outgoing call
 		2 tone buses individually selectable.
 	Electrical Parameters:
+		Ring Generator:
+			~1.2VA per 1 REN (13mA @ 90VRMS)
+			Dividing active time can effectively triple REN capability of tranformer
+			6 VA transformer: 5 REN no time division, effectively 15 REN with division
+			Match amp wattage out approximately with transformer VA
 		Station Cards:
 			Gyrators to provide balaced line
 			Ring / Voice Relay
@@ -32,6 +37,7 @@ Electronic Controlled Electromechanical Switch:
 				Relay options: EC2-5NU https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
 				Relay Driver FET: XP231N02013R-G https://www.torexsemi.com/file/XP231N02013R/XP231N02013R.pdf
 			Protection:
+				Current Limit Zeners: BZX84-C9V1 https://www.mouser.com/datasheet/2/916/BZX84_SER-1319896.pdf
 				PolyFuse: 1206L005/60WR https://www.mouser.com/datasheet/2/240/Littelfuse_PTC_1206L_Datasheet_pdf-477012.pdf
 				Fuse (100mA slow blo): 0034.6605 https://www.mouser.com/datasheet/2/358/typ_MST_250-1888842.pdf
 		Tone Banks:

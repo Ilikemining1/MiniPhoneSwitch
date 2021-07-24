@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BZX84-C9V1
+D 9.1V, 250mW Zener Diode, SOT-23
+K zener diode
+F https://www.mouser.com/datasheet/2/916/BZX84_SER-1319896.pdf
+$ENDCMP
+#
 $CMP NL17SZ14DBVT1G
 D Single Schmitt-Trigger Inverter, SOT-23
 K Inverter Schmitt Trigger
