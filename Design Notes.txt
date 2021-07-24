@@ -30,7 +30,7 @@ Electronic Controlled Electromechanical Switch:
 			Connector: RJE0112001 https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rje01x2001.pdf
 			Switching Fabric:
 				Relay options: EC2-5NU https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
-				Relay Driver FET: XP261N7002TR-G https://www.torexsemi.com/file/xp261n7002tr/XP261N7002TR.pdf
+				Relay Driver FET: XP231N02013R-G https://www.torexsemi.com/file/XP231N02013R/XP231N02013R.pdf
 			Protection:
 				PolyFuse: 1206L005/60WR https://www.mouser.com/datasheet/2/240/Littelfuse_PTC_1206L_Datasheet_pdf-477012.pdf
 				Fuse (100mA slow blo): 0034.6605 https://www.mouser.com/datasheet/2/358/typ_MST_250-1888842.pdf
@@ -48,9 +48,6 @@ Electronic Controlled Electromechanical Switch:
 				Tone Banks:
 					8 DTMF Decoder Sense (Input)
 					Currently TBD Output for Tone Generation, probably I2C (Output)
-				Device Sense:
-					10 Analog Inputs
-				
 				Total: 18 Inputs, 44 Outputs, Total 62 GPIO
 				This is an estimate and will likely change with time and the design.  
 				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf

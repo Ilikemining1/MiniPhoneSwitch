@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP EC2-5NU
-D General purpose DPDT Relay Symbol
-K signal relay double pole double throw DPDT DC coil non latching
-F https://www.mouser.com/datasheet/2/212/1/KEM_R7002_EC2_EE2-1104574.pdf
-$ENDCMP
-#
 $CMP NL17SZ14DBVT1G
 D Single Schmitt-Trigger Inverter, SOT-23
 K Inverter Schmitt Trigger
@@ -24,21 +18,16 @@ K power PNP Transistor
 F https://www.mouser.com/datasheet/2/916/PHPT61003PY-1599682.pdf
 $ENDCMP
 #
-$CMP Relay_DPDT
-D General purpose DPDT Relay Symbol
-K signal relay double pole double throw DPDT DC coil non latching
-$ENDCMP
-#
 $CMP TCMD1000
 D Optocoupler, Vce 35V, CTR 50-600%, Viso 3750V (RMS), SOP-4
 K NPN DC opto
 F https://www.mouser.com/datasheet/2/427/tcmd1000-1767230.pdf
 $ENDCMP
 #
-$CMP XP261N7002TR-G
-D 0.15A Id, 60V Vds, N-Channel MOSFET, 1.5V Logic Level, SOT-23-3
+$CMP XP231N02013R-G
+D 0.2A Id, 30V Vds, N-Channel MOSFET, Logic Level, SOT-323-3
 K N-Channel MOSFET Logic-Level
-F https://www.torexsemi.com/file/xp261n7002tr/XP261N7002TR.pdf
+F https://www.torexsemi.com/file/XP231N02013R/XP231N02013R.pdf
 $ENDCMP
 #
 #End Doc Library
