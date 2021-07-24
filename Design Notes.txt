@@ -4,7 +4,7 @@ Electronic Controlled Electromechanical Switch:
 		DID support if possible, would need to parse Caller ID
 		If not, programmable extension ringing
 	Stations:
-		8-10 Analog stations, each with programmable DNs.  
+		0-8 Analog stations, each with programmable DNs.  
 		DTMF and Pulse Support
 		Properish full ring voltage, 90v RMS 20Hz Sine
 	Tone Banks:
@@ -41,14 +41,16 @@ Electronic Controlled Electromechanical Switch:
 				Trunks:
 					2 Ring Sense (Input)
 					4 Trunk Routing (Output)
+					2 Trunk Module Detect (Input)
 				Stations:
 					8 Ring Enable (Output)
 					8 Hook Detect / Dial Pulse (Input)
 					32 Call Routing (Output)
+					8 Station Module Detect (Input)
 				Tone Banks:
 					8 DTMF Decoder Sense (Input)
 					Currently TBD Output for Tone Generation, probably I2C (Output)
-				Total: 18 Inputs, 44 Outputs, Total 62 GPIO
+				Total: 28 Inputs, 44 Outputs, Total 72 GPIO
 				This is an estimate and will likely change with time and the design.  
 				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf, XRA1403IG24TR-F https://www.mouser.com/datasheet/2/146/XRA1403_100_092011-1889074.pdf
 				
