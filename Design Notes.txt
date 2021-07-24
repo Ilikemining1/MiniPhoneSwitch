@@ -50,5 +50,5 @@ Electronic Controlled Electromechanical Switch:
 					Currently TBD Output for Tone Generation, probably I2C (Output)
 				Total: 18 Inputs, 44 Outputs, Total 62 GPIO
 				This is an estimate and will likely change with time and the design.  
-				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf
+				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf, XRA1403IG24TR-F https://www.mouser.com/datasheet/2/146/XRA1403_100_092011-1889074.pdf
 				
