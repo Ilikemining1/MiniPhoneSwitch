@@ -99,17 +99,6 @@ $EndComp
 Wire Wire Line
 	9250 1450 9250 1250
 Connection ~ 9250 1450
-$Comp
-L Diode:1N4007 D3
-U 1 1 60F4828E
-P 9500 2200
-F 0 "D3" V 9350 2250 50  0000 L CNN
-F 1 "1N4007" H 9550 2250 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9500 2025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9500 2200 50  0001 C CNN
-	1    9500 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9500 2050 9500 1850
 Wire Wire Line
@@ -191,17 +180,6 @@ Wire Wire Line
 	8800 4050 9250 4050
 Wire Wire Line
 	9250 4050 9250 3950
-$Comp
-L Diode:1N4007 D6
-U 1 1 60F4F891
-P 9500 3300
-F 0 "D6" V 9350 3200 50  0000 L CNN
-F 1 "1N4007" H 9550 3250 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9500 3125 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9500 3300 50  0001 C CNN
-	1    9500 3300
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	9500 3450 9500 3650
 Wire Wire Line
@@ -279,17 +257,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 1450 9750 1450
 Connection ~ 9500 1850
-$Comp
-L Diode:1N4007 D1
-U 1 1 60F9656B
-P 9750 1650
-F 0 "D1" V 9600 1700 50  0000 L CNN
-F 1 "1N4007" H 9200 1650 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9750 1475 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9750 1650 50  0001 C CNN
-	1    9750 1650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9850 1850 9850 1650
 Wire Wire Line
@@ -380,39 +347,6 @@ F 3 "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf" H 3550 3150 50 
 	1    3550 3150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Diode:1N4007 D8
-U 1 1 60FF02D6
-P 7500 3650
-F 0 "D8" H 7500 3450 50  0000 C CNN
-F 1 "1N4007" H 7500 3550 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7500 3475 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7500 3650 50  0001 C CNN
-	1    7500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4007 D5
-U 1 1 60FF183F
-P 5750 3200
-F 0 "D5" H 5750 3000 50  0000 C CNN
-F 1 "1N4007" H 5750 3100 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5750 3025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5750 3200 50  0001 C CNN
-	1    5750 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4007 D4
-U 1 1 60FF2753
-P 4500 3200
-F 0 "D4" H 4500 3000 50  0000 C CNN
-F 1 "1N4007" H 4500 3100 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4500 3025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4500 3200 50  0001 C CNN
-	1    4500 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 3650 7800 3650
 Wire Wire Line
@@ -433,17 +367,6 @@ Wire Wire Line
 	4200 2900 4200 3050
 Wire Wire Line
 	4200 3200 4350 3200
-$Comp
-L Diode:1N4007 D9
-U 1 1 61025FFB
-P 3550 3850
-F 0 "D9" H 3400 3900 50  0000 C CNN
-F 1 "1N4007" H 4050 3850 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3550 3675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3550 3850 50  0001 C CNN
-	1    3550 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3850 3850 3850
 Wire Wire Line
@@ -689,7 +612,7 @@ Wire Notes Line
 Text Notes 6750 800  0    50   ~ 0
 Line Power, Ring Trip, and Ringer Control
 Text Label 1300 2300 2    50   ~ 0
-RING
+VRING
 Text Label 6150 2100 0    50   ~ 0
 AUDT
 Text Label 6150 2500 0    50   ~ 0
@@ -963,7 +886,7 @@ Wire Wire Line
 	3250 4350 3100 4350
 Wire Wire Line
 	5050 4350 5200 4350
-Text Label 2000 2400 0    50   ~ 0
+Text Label 2000 1900 0    50   ~ 0
 RINGE
 Text Label 2000 2200 0    50   ~ 0
 AUDE
@@ -1175,17 +1098,6 @@ Wire Notes Line
 Wire Wire Line
 	1300 1800 1400 1800
 $Comp
-L power:+3.3V #PWR0120
-U 1 1 6125ADE8
-P 2200 1900
-F 0 "#PWR0120" H 2200 1750 50  0001 C CNN
-F 1 "+3.3V" V 2200 2000 50  0000 L CNN
-F 2 "" H 2200 1900 50  0001 C CNN
-F 3 "" H 2200 1900 50  0001 C CNN
-	1    2200 1900
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0121
 U 1 1 6126D62F
 P 1100 1900
@@ -1355,7 +1267,7 @@ F 3 "" H 6850 3500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Text Label 7000 2850 2    50   ~ 0
-RING
+VRING
 Wire Wire Line
 	7200 2850 7000 2850
 Connection ~ 9250 2800
@@ -1419,10 +1331,6 @@ F 3 "~" H 1700 2300 50  0001 C CNN
 	1    1700 2300
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1900 2400 2000 2400
-Wire Wire Line
-	1900 1900 2200 1900
 Wire Wire Line
 	1100 1900 1400 1900
 Wire Wire Line
@@ -1511,4 +1419,96 @@ F 3 "~" H 8650 2650 50  0001 C CNN
 	1    8650 2650
 	0    1    1    0   
 $EndComp
+$Comp
+L Diode:1N4148 D5
+U 1 1 6102E0C1
+P 5750 3200
+F 0 "D5" H 5750 3000 50  0000 C CNN
+F 1 "1N4148" H 5750 3100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5750 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5750 3200 50  0001 C CNN
+	1    5750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 6102EA3B
+P 4500 3200
+F 0 "D4" H 4500 3000 50  0000 C CNN
+F 1 "1N4148" H 4500 3100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4500 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4500 3200 50  0001 C CNN
+	1    4500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 6102F2BB
+P 3550 3850
+F 0 "D9" H 3300 3900 50  0000 C CNN
+F 1 "1N4148" H 4050 3900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3550 3675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 6102FC8A
+P 7500 3650
+F 0 "D8" H 7250 3700 50  0000 C CNN
+F 1 "1N4148" H 8000 3650 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7500 3475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7500 3650 50  0001 C CNN
+	1    7500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 61031863
+P 9750 1650
+F 0 "D1" H 9750 1450 50  0000 C CNN
+F 1 "1N4148" H 9750 1550 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9750 1475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9750 1650 50  0001 C CNN
+	1    9750 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 6107602F
+P 9500 2200
+F 0 "D3" H 9500 2000 50  0000 C CNN
+F 1 "1N4148" H 9500 2100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9500 2025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9500 2200 50  0001 C CNN
+	1    9500 2200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 61076B49
+P 9500 3300
+F 0 "D6" H 9500 3100 50  0000 C CNN
+F 1 "1N4148" H 9500 3200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9500 3125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9500 3300 50  0001 C CNN
+	1    9500 3300
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 6125ADE8
+P 2200 2400
+F 0 "#PWR0120" H 2200 2250 50  0001 C CNN
+F 1 "+3.3V" V 2200 2500 50  0000 L CNN
+F 2 "" H 2200 2400 50  0001 C CNN
+F 3 "" H 2200 2400 50  0001 C CNN
+	1    2200 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 1900 1900 1900
+Wire Wire Line
+	1900 2400 2200 2400
 $EndSCHEMATC
