@@ -195,7 +195,7 @@ U 1 1 60F5DB73
 P 10150 2800
 F 0 "J2" H 9820 2896 50  0000 R CNN
 F 1 "6P2C" H 9820 2805 50  0000 R CNN
-F 2 "PhoneInterfaceParts:RJE0112001" V 10150 2825 50  0001 C CNN
+F 2 "Imported_Parts:RJE0112001" V 10150 2825 50  0001 C CNN
 F 3 "~" V 10150 2825 50  0001 C CNN
 	1    10150 2800
 	-1   0    0    -1  
@@ -1044,7 +1044,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 5700 1050 5700
 Wire Wire Line
-	1650 5700 1350 5700
+	1650 5700 1500 5700
 Connection ~ 1350 5700
 Text Label 1300 1800 2    50   ~ 0
 VBATT
@@ -1501,4 +1501,35 @@ Wire Wire Line
 	1650 6050 1650 5700
 Wire Wire Line
 	1350 5700 1350 6050
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 612247FE
+P 1500 5850
+F 0 "H?" H 1450 5800 50  0000 R CNN
+F 1 "MNT1" H 1600 6050 50  0000 R CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 1500 5850 50  0001 C CNN
+F 3 "~" H 1500 5850 50  0001 C CNN
+	1    1500 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 61225DDE
+P 1800 5850
+F 0 "H?" H 1750 5800 50  0000 R CNN
+F 1 "MNT1" H 1900 6050 50  0000 R CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 1800 5850 50  0001 C CNN
+F 3 "~" H 1800 5850 50  0001 C CNN
+	1    1800 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 5750 1800 5700
+Wire Wire Line
+	1800 5700 1650 5700
+Wire Wire Line
+	1500 5750 1500 5700
+Connection ~ 1500 5700
+Wire Wire Line
+	1500 5700 1350 5700
 $EndSCHEMATC
