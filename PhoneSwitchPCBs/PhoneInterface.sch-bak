@@ -1043,23 +1043,8 @@ Wire Wire Line
 	1350 5600 1350 5700
 Wire Wire Line
 	1350 5700 1050 5700
-$Comp
-L Device:C_Small C7
-U 1 1 6115AB08
-P 1650 5500
-F 0 "C7" H 1558 5454 50  0000 R CNN
-F 1 ".1u" H 1558 5545 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1650 5500 50  0001 C CNN
-F 3 "~" H 1650 5500 50  0001 C CNN
-	1    1650 5500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 5300 1650 5400
 Wire Wire Line
 	1650 5700 1350 5700
-Wire Wire Line
-	1650 5600 1650 5700
 Connection ~ 1350 5700
 Text Label 1300 1800 2    50   ~ 0
 VBATT
@@ -1128,17 +1113,6 @@ F 1 "+3.3V" H 1365 5473 50  0000 C CNN
 F 2 "" H 1350 5300 50  0001 C CNN
 F 3 "" H 1350 5300 50  0001 C CNN
 	1    1350 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0124
-U 1 1 61280978
-P 1650 5300
-F 0 "#PWR0124" H 1650 5150 50  0001 C CNN
-F 1 "+3.3V" H 1665 5473 50  0000 C CNN
-F 2 "" H 1650 5300 50  0001 C CNN
-F 3 "" H 1650 5300 50  0001 C CNN
-	1    1650 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1212,20 +1186,20 @@ CINST
 $Comp
 L Device:R_Small R19
 U 1 1 60FEA6CF
-P 2100 5500
-F 0 "R19" H 2042 5454 50  0000 R CNN
-F 1 "4.7k" H 2042 5545 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2100 5500 50  0001 C CNN
-F 3 "~" H 2100 5500 50  0001 C CNN
-	1    2100 5500
-	1    0    0    -1  
+P 1650 5500
+F 0 "R19" H 1592 5454 50  0000 R CNN
+F 1 "4.7k" H 1592 5545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 1650 5500 50  0001 C CNN
+F 3 "~" H 1650 5500 50  0001 C CNN
+	1    1650 5500
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 5600 2100 5700
-Text Label 2100 5300 1    50   ~ 0
+	1650 5600 1650 5700
+Text Label 1650 5300 1    50   ~ 0
 CINST
 Wire Wire Line
-	2100 5300 2100 5400
+	1650 5300 1650 5400
 Wire Wire Line
 	1100 2400 1400 2400
 Text Notes 800  6650 0    50   ~ 0
@@ -1500,8 +1474,6 @@ Wire Wire Line
 	2000 1900 1900 1900
 Wire Wire Line
 	1900 2400 2200 2400
-Wire Wire Line
-	2100 5700 1650 5700
 Connection ~ 1650 5700
 $Comp
 L Mechanical:MountingHole_Pad H1
@@ -1509,7 +1481,7 @@ U 1 1 61033A10
 P 1350 6150
 F 0 "H1" H 1300 6100 50  0000 R CNN
 F 1 "MNT1" H 1450 6350 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1350 6150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 1350 6150 50  0001 C CNN
 F 3 "~" H 1350 6150 50  0001 C CNN
 	1    1350 6150
 	-1   0    0    1   
@@ -1520,7 +1492,7 @@ U 1 1 61034116
 P 1650 6150
 F 0 "H2" H 1600 6100 50  0000 R CNN
 F 1 "MNT2" H 1750 6350 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1650 6150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 1650 6150 50  0001 C CNN
 F 3 "~" H 1650 6150 50  0001 C CNN
 	1    1650 6150
 	-1   0    0    1   
