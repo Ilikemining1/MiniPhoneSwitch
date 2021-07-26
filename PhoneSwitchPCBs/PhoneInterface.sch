@@ -1503,4 +1503,30 @@ Wire Wire Line
 Wire Wire Line
 	2100 5700 1650 5700
 Connection ~ 1650 5700
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61033A10
+P 1350 6150
+F 0 "H1" H 1300 6100 50  0000 R CNN
+F 1 "MNT1" H 1450 6350 50  0000 R CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 1350 6150 50  0001 C CNN
+F 3 "~" H 1350 6150 50  0001 C CNN
+	1    1350 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 61034116
+P 1650 6150
+F 0 "H2" H 1600 6100 50  0000 R CNN
+F 1 "MNT2" H 1750 6350 50  0000 R CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 1650 6150 50  0001 C CNN
+F 3 "~" H 1650 6150 50  0001 C CNN
+	1    1650 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 6050 1650 5700
+Wire Wire Line
+	1350 5700 1350 6050
 $EndSCHEMATC
