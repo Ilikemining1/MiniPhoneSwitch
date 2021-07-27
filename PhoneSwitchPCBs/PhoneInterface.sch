@@ -673,25 +673,17 @@ $EndComp
 Wire Wire Line
 	3250 1600 2800 1600
 Wire Wire Line
-	2800 1600 2800 2800
+	2800 1600 2800 2700
 Wire Wire Line
 	3250 1800 2750 1800
 Wire Wire Line
-	2750 1800 2750 2600
+	2750 1800 2750 2500
 Wire Wire Line
 	3250 2000 2850 2000
-Wire Wire Line
-	2850 2000 2850 2700
-Wire Wire Line
-	2900 2200 2900 2500
 Wire Wire Line
 	2900 2200 3250 2200
 Wire Wire Line
 	3250 3250 1250 3250
-Wire Wire Line
-	1250 3250 1250 2800
-Wire Wire Line
-	1250 2800 1400 2800
 Wire Wire Line
 	3150 3050 3150 3150
 Wire Wire Line
@@ -699,17 +691,11 @@ Wire Wire Line
 Wire Wire Line
 	3150 3050 3250 3050
 Wire Wire Line
-	1400 2600 1200 2600
-Wire Wire Line
-	1200 2600 1200 3150
-Wire Wire Line
 	3050 2850 3050 3050
 Wire Wire Line
 	3050 3050 1150 3050
 Wire Wire Line
-	1150 3050 1150 2700
-Wire Wire Line
-	1150 2700 1400 2700
+	1150 3050 1150 2800
 Wire Wire Line
 	3050 2850 3250 2850
 Wire Wire Line
@@ -719,9 +705,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2950 1100 2950
 Wire Wire Line
-	1100 2950 1100 2500
-Wire Wire Line
-	1100 2500 1400 2500
+	1100 2950 1100 2600
 Text Notes 5350 1700 0    50   ~ 0
 Audio Enable Control
 Text Notes 4900 1700 2    50   ~ 0
@@ -888,7 +872,7 @@ Wire Wire Line
 	5050 4350 5200 4350
 Text Label 2000 1900 0    50   ~ 0
 RINGE
-Text Label 2000 2200 0    50   ~ 0
+Text Label 2000 2100 0    50   ~ 0
 AUDE
 Text Label 1300 2000 2    50   ~ 0
 LINE
@@ -921,7 +905,7 @@ Wire Wire Line
 Connection ~ 10550 1450
 Text Label 10600 1450 0    50   ~ 0
 HOOKS
-Text Label 2000 2100 0    50   ~ 0
+Text Label 2000 2200 0    50   ~ 0
 RTRIP
 $Comp
 L PhoneInterfaceParts:NL17SZ14DBVT1G U2
@@ -1204,14 +1188,6 @@ Wire Wire Line
 	1100 2400 1400 2400
 Text Notes 800  6650 0    50   ~ 0
 Filters and Fusing
-Wire Wire Line
-	2800 2800 1900 2800
-Wire Wire Line
-	2850 2700 1900 2700
-Wire Wire Line
-	2750 2600 1900 2600
-Wire Wire Line
-	2900 2500 1900 2500
 Wire Wire Line
 	8250 2950 7800 2950
 Wire Wire Line
@@ -1532,4 +1508,28 @@ Wire Wire Line
 Connection ~ 1500 5700
 Wire Wire Line
 	1500 5700 1350 5700
+Wire Wire Line
+	1200 2500 1400 2500
+Wire Wire Line
+	1200 2500 1200 3150
+Wire Wire Line
+	1400 2600 1100 2600
+Wire Wire Line
+	1400 2700 1250 2700
+Wire Wire Line
+	1250 2700 1250 3250
+Wire Wire Line
+	1400 2800 1150 2800
+Wire Wire Line
+	1900 2500 2750 2500
+Wire Wire Line
+	2900 2600 1900 2600
+Wire Wire Line
+	2900 2200 2900 2600
+Wire Wire Line
+	1900 2700 2800 2700
+Wire Wire Line
+	2850 2800 1900 2800
+Wire Wire Line
+	2850 2000 2850 2800
 $EndSCHEMATC
