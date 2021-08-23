@@ -41,6 +41,10 @@ Electronic Controlled Electromechanical Switch:
 				Fuse (100mA slow blo): 0034.6605 https://www.mouser.com/datasheet/2/358/typ_MST_250-1888842.pdf
 		Tone Banks:
 			DTMF Decoder: MT8870 https://www.microsemi.com/document-portal/doc_view/127041-mt8870d-datasheet-oct2006
+			Tone Generator:
+				4 Wein Bridge Oscillators, 350Hz, 440Hz, 480Hz, and 620Hz
+				74HC4066 to mix frequencies
+				TL074 OP Amp
 		Microcontroller:
 			Pin requirements:
 				Trunks:
@@ -58,4 +62,10 @@ Electronic Controlled Electromechanical Switch:
 				Total: 28 Inputs, 44 Outputs, Total 72 GPIO
 				This is an estimate and will likely change with time and the design.  
 				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf, XRA1403IG24TR-F https://www.mouser.com/datasheet/2/146/XRA1403_100_092011-1889074.pdf
-				
+		Power Supply:
+			-48v supply for battery voltage
+			12v supply for everything else, used to produce 5v and 3.3v rails
+			Additional dual +-5v for tone generator opamps
+			PDME1-S12-D5-S https://www.mouser.com/datasheet/2/670/pdme1_s-1595987.pdf
+			OKL-T/1-W12N-C https://www.mouser.com/datasheet/2/281/1/okl_t1_w12-1847213.pdf
+			
