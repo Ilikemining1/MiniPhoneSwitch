@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC4066
+D Quad SPST Analog Switches, normally OFF, 50Ohm Ron, SO-14
+K CMOS Analog Switch
+F http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf
+$ENDCMP
+#
+#End Doc Library

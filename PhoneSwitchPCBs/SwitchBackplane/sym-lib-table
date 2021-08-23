@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PhoneInterfaceParts)(type Legacy)(uri "C:/Users/Sam Bach/Desktop/Electronics/MiniPhoneSwitch/PhoneSwitchPCBs/PhoneInterfaceParts.lib")(options "")(descr ""))
+  (lib (name SwitchBackplaneParts)(type Legacy)(uri ${KIPRJMOD}/SwitchBackplaneParts.lib)(options "")(descr ""))
+)
