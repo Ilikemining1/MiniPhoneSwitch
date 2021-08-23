@@ -15,50 +15,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L Amplifier_Operational:TL074 U?
-U 1 1 612305ED
-P 1900 1525
-F 0 "U?" H 1775 1550 50  0000 C CNN
-F 1 "TL074" H 1825 1475 50  0000 C CNN
-F 2 "" H 1850 1625 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1950 1725 50  0001 C CNN
-	1    1900 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U?
-U 2 1 61231DF4
-P 3175 1525
-F 0 "U?" H 3050 1550 50  0000 C CNN
-F 1 "TL074" H 3100 1475 50  0000 C CNN
-F 2 "" H 3125 1625 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3225 1725 50  0001 C CNN
-	2    3175 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U?
-U 3 1 61233234
-P 4450 1525
-F 0 "U?" H 4325 1550 50  0000 C CNN
-F 1 "TL074" H 4375 1475 50  0000 C CNN
-F 2 "" H 4400 1625 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4500 1725 50  0001 C CNN
-	3    4450 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U?
-U 4 1 61234CF5
-P 5725 1525
-F 0 "U?" H 5600 1550 50  0000 C CNN
-F 1 "TL074" H 5650 1475 50  0000 C CNN
-F 2 "" H 5675 1625 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5775 1725 50  0001 C CNN
-	4    5725 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U?
 U 5 1 61236935
 P 775 1550
 F 0 "U?" H 800 2050 50  0000 L CNN
@@ -66,674 +22,6 @@ F 1 "TL074" H 775 1975 50  0000 L CNN
 F 2 "" H 725 1650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 825 1750 50  0001 C CNN
 	5    775  1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 61240C7F
-P 1925 1800
-F 0 "R?" V 1850 1800 50  0000 C CNN
-F 1 "4.7k" V 2000 1800 50  0000 C CNN
-F 2 "" H 1925 1800 50  0001 C CNN
-F 3 "~" H 1925 1800 50  0001 C CNN
-	1    1925 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1550 1625 1600 1625
-Wire Wire Line
-	2250 1525 2200 1525
-$Comp
-L Device:R_Small R?
-U 1 1 6124347A
-P 1375 1625
-F 0 "R?" V 1425 1500 50  0000 C CNN
-F 1 "2.2k" V 1450 1750 50  0000 C CNN
-F 2 "" H 1375 1625 50  0001 C CNN
-F 3 "~" H 1375 1625 50  0001 C CNN
-	1    1375 1625
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1550 1625 1550 1800
-Connection ~ 1550 1800
-$Comp
-L Diode:1N4148 D?
-U 1 1 6124B687
-P 1925 2000
-F 0 "D?" H 1800 1950 50  0000 C CNN
-F 1 "1N4148" H 2150 1950 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1925 1825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1925 2000 50  0001 C CNN
-	1    1925 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4148 D?
-U 1 1 6124EB8F
-P 1925 2150
-F 0 "D?" H 2050 2200 50  0000 C CNN
-F 1 "1N4148" H 1700 2200 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1925 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1925 2150 50  0001 C CNN
-	1    1925 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 2150 2250 2000
-Wire Wire Line
-	1550 2150 1550 2000
-Wire Wire Line
-	2075 2000 2250 2000
-Connection ~ 2250 2000
-Wire Wire Line
-	2075 2150 2250 2150
-Wire Wire Line
-	1775 2000 1550 2000
-Connection ~ 1550 2000
-Wire Wire Line
-	1550 2000 1550 1800
-Wire Wire Line
-	1775 2150 1550 2150
-$Comp
-L Device:R_Small R?
-U 1 1 6125A927
-P 2075 1250
-F 0 "R?" V 1900 1250 50  0000 C CNN
-F 1 "680" V 1975 1250 50  0000 C CNN
-F 2 "" H 2075 1250 50  0001 C CNN
-F 3 "~" H 2075 1250 50  0001 C CNN
-	1    2075 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2250 1250 2250 1525
-Connection ~ 2250 1525
-$Comp
-L Device:R_Small R?
-U 1 1 6125E81A
-P 1375 1425
-F 0 "R?" V 1425 1300 50  0000 C CNN
-F 1 "680" V 1450 1550 50  0000 C CNN
-F 2 "" H 1375 1425 50  0001 C CNN
-F 3 "~" H 1375 1425 50  0001 C CNN
-	1    1375 1425
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2250 1525 2250 1800
-Wire Wire Line
-	1550 1800 1825 1800
-Wire Wire Line
-	2025 1800 2250 1800
-Connection ~ 2250 1800
-Wire Wire Line
-	2250 1800 2250 2000
-Wire Wire Line
-	2175 1250 2250 1250
-$Comp
-L Device:C_Small C?
-U 1 1 6126293D
-P 1825 1250
-F 0 "C?" V 1650 1250 50  0000 C CNN
-F 1 ".68u" V 1725 1250 50  0000 C CNN
-F 2 "" H 1825 1250 50  0001 C CNN
-F 3 "~" H 1825 1250 50  0001 C CNN
-	1    1825 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1975 1250 1925 1250
-Wire Wire Line
-	1600 1425 1550 1425
-Wire Wire Line
-	1550 1250 1725 1250
-$Comp
-L Device:C_Small C?
-U 1 1 6125DBA1
-P 1375 1250
-F 0 "C?" V 1550 1250 50  0000 C CNN
-F 1 ".68u" V 1475 1250 50  0000 C CNN
-F 2 "" H 1375 1250 50  0001 C CNN
-F 3 "~" H 1375 1250 50  0001 C CNN
-	1    1375 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1550 1425 1550 1250
-Wire Wire Line
-	1550 1425 1475 1425
-Connection ~ 1550 1425
-Wire Wire Line
-	1550 1250 1475 1250
-Connection ~ 1550 1250
-Wire Wire Line
-	1150 1250 1150 1425
-Connection ~ 1150 1425
-Wire Wire Line
-	1150 1425 1275 1425
-Wire Wire Line
-	1150 1250 1275 1250
-Wire Wire Line
-	1150 1425 1150 1625
-Wire Wire Line
-	1550 1625 1475 1625
-Wire Wire Line
-	1275 1625 1150 1625
-Connection ~ 1550 1625
-Connection ~ 1150 1625
-Wire Wire Line
-	1150 1625 1150 1800
-$Comp
-L power:GND #PWR?
-U 1 1 6126B43B
-P 1150 1800
-F 0 "#PWR?" H 1150 1550 50  0001 C CNN
-F 1 "GND" H 1155 1627 50  0000 C CNN
-F 2 "" H 1150 1800 50  0001 C CNN
-F 3 "" H 1150 1800 50  0001 C CNN
-	1    1150 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 6127166B
-P 3200 1800
-F 0 "R?" V 3125 1800 50  0000 C CNN
-F 1 "4.7k" V 3275 1800 50  0000 C CNN
-F 2 "" H 3200 1800 50  0001 C CNN
-F 3 "~" H 3200 1800 50  0001 C CNN
-	1    3200 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2825 1625 2875 1625
-Wire Wire Line
-	3525 1525 3475 1525
-$Comp
-L Device:R_Small R?
-U 1 1 61271673
-P 2650 1625
-F 0 "R?" V 2700 1500 50  0000 C CNN
-F 1 "2.2k" V 2725 1750 50  0000 C CNN
-F 2 "" H 2650 1625 50  0001 C CNN
-F 3 "~" H 2650 1625 50  0001 C CNN
-	1    2650 1625
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2825 1625 2825 1800
-Connection ~ 2825 1800
-$Comp
-L Diode:1N4148 D?
-U 1 1 6127167B
-P 3200 2000
-F 0 "D?" H 3075 1950 50  0000 C CNN
-F 1 "1N4148" H 3425 1950 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 1825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 2000 50  0001 C CNN
-	1    3200 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4148 D?
-U 1 1 61271681
-P 3200 2150
-F 0 "D?" H 3325 2200 50  0000 C CNN
-F 1 "1N4148" H 2975 2200 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 2150 50  0001 C CNN
-	1    3200 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3525 2150 3525 2000
-Wire Wire Line
-	2825 2150 2825 2000
-Wire Wire Line
-	3350 2000 3525 2000
-Connection ~ 3525 2000
-Wire Wire Line
-	3350 2150 3525 2150
-Wire Wire Line
-	3050 2000 2825 2000
-Connection ~ 2825 2000
-Wire Wire Line
-	2825 2000 2825 1800
-Wire Wire Line
-	3050 2150 2825 2150
-$Comp
-L Device:R_Small R?
-U 1 1 61271690
-P 3350 1250
-F 0 "R?" V 3175 1250 50  0000 C CNN
-F 1 "1.1k" V 3250 1250 50  0000 C CNN
-F 2 "" H 3350 1250 50  0001 C CNN
-F 3 "~" H 3350 1250 50  0001 C CNN
-	1    3350 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3525 1250 3525 1525
-Connection ~ 3525 1525
-$Comp
-L Device:R_Small R?
-U 1 1 61271698
-P 2650 1425
-F 0 "R?" V 2700 1300 50  0000 C CNN
-F 1 "1.1k" V 2725 1550 50  0000 C CNN
-F 2 "" H 2650 1425 50  0001 C CNN
-F 3 "~" H 2650 1425 50  0001 C CNN
-	1    2650 1425
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3525 1525 3525 1800
-Wire Wire Line
-	2825 1800 3100 1800
-Wire Wire Line
-	3300 1800 3525 1800
-Connection ~ 3525 1800
-Wire Wire Line
-	3525 1800 3525 2000
-Wire Wire Line
-	3450 1250 3525 1250
-$Comp
-L Device:C_Small C?
-U 1 1 612716A4
-P 3100 1250
-F 0 "C?" V 2925 1250 50  0000 C CNN
-F 1 ".33u" V 3000 1250 50  0000 C CNN
-F 2 "" H 3100 1250 50  0001 C CNN
-F 3 "~" H 3100 1250 50  0001 C CNN
-	1    3100 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3250 1250 3200 1250
-Wire Wire Line
-	2875 1425 2825 1425
-Wire Wire Line
-	2825 1250 3000 1250
-$Comp
-L Device:C_Small C?
-U 1 1 612716AD
-P 2650 1250
-F 0 "C?" V 2825 1250 50  0000 C CNN
-F 1 ".33u" V 2750 1250 50  0000 C CNN
-F 2 "" H 2650 1250 50  0001 C CNN
-F 3 "~" H 2650 1250 50  0001 C CNN
-	1    2650 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2825 1425 2825 1250
-Wire Wire Line
-	2825 1425 2750 1425
-Connection ~ 2825 1425
-Wire Wire Line
-	2825 1250 2750 1250
-Connection ~ 2825 1250
-Wire Wire Line
-	2425 1250 2425 1425
-Connection ~ 2425 1425
-Wire Wire Line
-	2425 1425 2550 1425
-Wire Wire Line
-	2425 1250 2550 1250
-Wire Wire Line
-	2425 1425 2425 1625
-Wire Wire Line
-	2825 1625 2750 1625
-Wire Wire Line
-	2550 1625 2425 1625
-Connection ~ 2825 1625
-Connection ~ 2425 1625
-Wire Wire Line
-	2425 1625 2425 1800
-$Comp
-L power:GND #PWR?
-U 1 1 612716C2
-P 2425 1800
-F 0 "#PWR?" H 2425 1550 50  0001 C CNN
-F 1 "GND" H 2430 1627 50  0000 C CNN
-F 2 "" H 2425 1800 50  0001 C CNN
-F 3 "" H 2425 1800 50  0001 C CNN
-	1    2425 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 6128713B
-P 4475 1800
-F 0 "R?" V 4400 1800 50  0000 C CNN
-F 1 "4.7k" V 4550 1800 50  0000 C CNN
-F 2 "" H 4475 1800 50  0001 C CNN
-F 3 "~" H 4475 1800 50  0001 C CNN
-	1    4475 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4100 1625 4150 1625
-Wire Wire Line
-	4800 1525 4750 1525
-$Comp
-L Device:R_Small R?
-U 1 1 61287143
-P 3925 1625
-F 0 "R?" V 3975 1500 50  0000 C CNN
-F 1 "2.2k" V 4000 1750 50  0000 C CNN
-F 2 "" H 3925 1625 50  0001 C CNN
-F 3 "~" H 3925 1625 50  0001 C CNN
-	1    3925 1625
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4100 1625 4100 1800
-Connection ~ 4100 1800
-$Comp
-L Diode:1N4148 D?
-U 1 1 6128714B
-P 4475 2000
-F 0 "D?" H 4350 1950 50  0000 C CNN
-F 1 "1N4148" H 4700 1950 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4475 1825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4475 2000 50  0001 C CNN
-	1    4475 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4148 D?
-U 1 1 61287151
-P 4475 2150
-F 0 "D?" H 4600 2200 50  0000 C CNN
-F 1 "1N4148" H 4250 2200 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4475 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4475 2150 50  0001 C CNN
-	1    4475 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 2150 4800 2000
-Wire Wire Line
-	4100 2150 4100 2000
-Wire Wire Line
-	4625 2000 4800 2000
-Connection ~ 4800 2000
-Wire Wire Line
-	4625 2150 4800 2150
-Wire Wire Line
-	4325 2000 4100 2000
-Connection ~ 4100 2000
-Wire Wire Line
-	4100 2000 4100 1800
-Wire Wire Line
-	4325 2150 4100 2150
-$Comp
-L Device:R_Small R?
-U 1 1 61287160
-P 4625 1250
-F 0 "R?" V 4450 1250 50  0000 C CNN
-F 1 "1.0k" V 4525 1250 50  0000 C CNN
-F 2 "" H 4625 1250 50  0001 C CNN
-F 3 "~" H 4625 1250 50  0001 C CNN
-	1    4625 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4800 1250 4800 1525
-Connection ~ 4800 1525
-$Comp
-L Device:R_Small R?
-U 1 1 61287168
-P 3925 1425
-F 0 "R?" V 3975 1300 50  0000 C CNN
-F 1 "1.0k" V 4000 1550 50  0000 C CNN
-F 2 "" H 3925 1425 50  0001 C CNN
-F 3 "~" H 3925 1425 50  0001 C CNN
-	1    3925 1425
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4800 1525 4800 1800
-Wire Wire Line
-	4100 1800 4375 1800
-Wire Wire Line
-	4575 1800 4800 1800
-Connection ~ 4800 1800
-Wire Wire Line
-	4800 1800 4800 2000
-Wire Wire Line
-	4725 1250 4800 1250
-$Comp
-L Device:C_Small C?
-U 1 1 61287174
-P 4375 1250
-F 0 "C?" V 4200 1250 50  0000 C CNN
-F 1 ".33u" V 4275 1250 50  0000 C CNN
-F 2 "" H 4375 1250 50  0001 C CNN
-F 3 "~" H 4375 1250 50  0001 C CNN
-	1    4375 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4525 1250 4475 1250
-Wire Wire Line
-	4150 1425 4100 1425
-Wire Wire Line
-	4100 1250 4275 1250
-$Comp
-L Device:C_Small C?
-U 1 1 6128717D
-P 3925 1250
-F 0 "C?" V 4100 1250 50  0000 C CNN
-F 1 ".33u" V 4025 1250 50  0000 C CNN
-F 2 "" H 3925 1250 50  0001 C CNN
-F 3 "~" H 3925 1250 50  0001 C CNN
-	1    3925 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4100 1425 4100 1250
-Wire Wire Line
-	4100 1425 4025 1425
-Connection ~ 4100 1425
-Wire Wire Line
-	4100 1250 4025 1250
-Connection ~ 4100 1250
-Wire Wire Line
-	3700 1250 3700 1425
-Connection ~ 3700 1425
-Wire Wire Line
-	3700 1425 3825 1425
-Wire Wire Line
-	3700 1250 3825 1250
-Wire Wire Line
-	3700 1425 3700 1625
-Wire Wire Line
-	4100 1625 4025 1625
-Wire Wire Line
-	3825 1625 3700 1625
-Connection ~ 4100 1625
-Connection ~ 3700 1625
-Wire Wire Line
-	3700 1625 3700 1800
-$Comp
-L power:GND #PWR?
-U 1 1 61287192
-P 3700 1800
-F 0 "#PWR?" H 3700 1550 50  0001 C CNN
-F 1 "GND" H 3705 1627 50  0000 C CNN
-F 2 "" H 3700 1800 50  0001 C CNN
-F 3 "" H 3700 1800 50  0001 C CNN
-	1    3700 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 61287198
-P 5750 1800
-F 0 "R?" V 5675 1800 50  0000 C CNN
-F 1 "4.7k" V 5825 1800 50  0000 C CNN
-F 2 "" H 5750 1800 50  0001 C CNN
-F 3 "~" H 5750 1800 50  0001 C CNN
-	1    5750 1800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5375 1625 5425 1625
-Wire Wire Line
-	6075 1525 6025 1525
-$Comp
-L Device:R_Small R?
-U 1 1 612871A0
-P 5200 1625
-F 0 "R?" V 5250 1500 50  0000 C CNN
-F 1 "2.2k" V 5275 1750 50  0000 C CNN
-F 2 "" H 5200 1625 50  0001 C CNN
-F 3 "~" H 5200 1625 50  0001 C CNN
-	1    5200 1625
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5375 1625 5375 1800
-Connection ~ 5375 1800
-$Comp
-L Diode:1N4148 D?
-U 1 1 612871A8
-P 5750 2000
-F 0 "D?" H 5625 1950 50  0000 C CNN
-F 1 "1N4148" H 5975 1950 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5750 1825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5750 2000 50  0001 C CNN
-	1    5750 2000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4148 D?
-U 1 1 612871AE
-P 5750 2150
-F 0 "D?" H 5875 2200 50  0000 C CNN
-F 1 "1N4148" H 5525 2200 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5750 1975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5750 2150 50  0001 C CNN
-	1    5750 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6075 2150 6075 2000
-Wire Wire Line
-	5375 2150 5375 2000
-Wire Wire Line
-	5900 2000 6075 2000
-Connection ~ 6075 2000
-Wire Wire Line
-	5900 2150 6075 2150
-Wire Wire Line
-	5600 2000 5375 2000
-Connection ~ 5375 2000
-Wire Wire Line
-	5375 2000 5375 1800
-Wire Wire Line
-	5600 2150 5375 2150
-$Comp
-L Device:R_Small R?
-U 1 1 612871BD
-P 5900 1250
-F 0 "R?" V 5725 1250 50  0000 C CNN
-F 1 "1.17k" V 5800 1250 50  0000 C CNN
-F 2 "" H 5900 1250 50  0001 C CNN
-F 3 "~" H 5900 1250 50  0001 C CNN
-	1    5900 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6075 1250 6075 1525
-Connection ~ 6075 1525
-$Comp
-L Device:R_Small R?
-U 1 1 612871C5
-P 5200 1425
-F 0 "R?" V 5250 1300 50  0000 C CNN
-F 1 "1.17k" V 5275 1550 50  0000 C CNN
-F 2 "" H 5200 1425 50  0001 C CNN
-F 3 "~" H 5200 1425 50  0001 C CNN
-	1    5200 1425
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6075 1525 6075 1800
-Wire Wire Line
-	5375 1800 5650 1800
-Wire Wire Line
-	5850 1800 6075 1800
-Connection ~ 6075 1800
-Wire Wire Line
-	6075 1800 6075 2000
-Wire Wire Line
-	6000 1250 6075 1250
-$Comp
-L Device:C_Small C?
-U 1 1 612871D1
-P 5650 1250
-F 0 "C?" V 5475 1250 50  0000 C CNN
-F 1 ".22u" V 5550 1250 50  0000 C CNN
-F 2 "" H 5650 1250 50  0001 C CNN
-F 3 "~" H 5650 1250 50  0001 C CNN
-	1    5650 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5800 1250 5750 1250
-Wire Wire Line
-	5425 1425 5375 1425
-Wire Wire Line
-	5375 1250 5550 1250
-$Comp
-L Device:C_Small C?
-U 1 1 612871DA
-P 5200 1250
-F 0 "C?" V 5375 1250 50  0000 C CNN
-F 1 ".22u" V 5300 1250 50  0000 C CNN
-F 2 "" H 5200 1250 50  0001 C CNN
-F 3 "~" H 5200 1250 50  0001 C CNN
-	1    5200 1250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5375 1425 5375 1250
-Wire Wire Line
-	5375 1425 5300 1425
-Connection ~ 5375 1425
-Wire Wire Line
-	5375 1250 5300 1250
-Connection ~ 5375 1250
-Wire Wire Line
-	4975 1250 4975 1425
-Connection ~ 4975 1425
-Wire Wire Line
-	4975 1425 5100 1425
-Wire Wire Line
-	4975 1250 5100 1250
-Wire Wire Line
-	4975 1425 4975 1625
-Wire Wire Line
-	5375 1625 5300 1625
-Wire Wire Line
-	5100 1625 4975 1625
-Connection ~ 5375 1625
-Connection ~ 4975 1625
-Wire Wire Line
-	4975 1625 4975 1800
-$Comp
-L power:GND #PWR?
-U 1 1 612871EF
-P 4975 1800
-F 0 "#PWR?" H 4975 1550 50  0001 C CNN
-F 1 "GND" H 4980 1627 50  0000 C CNN
-F 2 "" H 4975 1800 50  0001 C CNN
-F 3 "" H 4975 1800 50  0001 C CNN
-	1    4975 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -819,127 +107,1039 @@ Connection ~ 825  1550
 Wire Wire Line
 	825  1550 825  1650
 $Comp
-L Device:R_Small R?
-U 1 1 6133787F
-P 2250 2350
-F 0 "R?" H 2100 2175 50  0000 C CNN
-F 1 "100k" H 2100 2250 50  0000 C CNN
-F 2 "" H 2250 2350 50  0001 C CNN
-F 3 "~" H 2250 2350 50  0001 C CNN
-	1    2250 2350
-	-1   0    0    1   
+L SwitchBackplaneParts:74HC4316 U?
+U 5 1 612566E8
+P 1300 1600
+F 0 "U?" H 1275 1700 50  0000 L CNN
+F 1 "74HC4316" H 1150 1625 50  0000 L CNN
+F 2 "" H 1300 1500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf" H 1300 1600 50  0001 C CNN
+	5    1300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 1600 1825 1675
+Wire Wire Line
+	1675 1600 1825 1600
+Connection ~ 1675 1600
+$Comp
+L power:GND #PWR?
+U 1 1 6129D8B0
+P 1825 1675
+F 0 "#PWR?" H 1825 1425 50  0001 C CNN
+F 1 "GND" H 1830 1502 50  0000 C CNN
+F 2 "" H 1825 1675 50  0001 C CNN
+F 3 "" H 1825 1675 50  0001 C CNN
+	1    1825 1675
+	1    0    0    -1  
 $EndComp
 $Comp
+L Device:C_Small C?
+U 1 1 6129D8A0
+P 1675 1300
+F 0 "C?" V 1625 1400 50  0000 C CNN
+F 1 ".1u" V 1625 1175 50  0000 C CNN
+F 2 "" H 1675 1300 50  0001 C CNN
+F 3 "~" H 1675 1300 50  0001 C CNN
+	1    1675 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6129D8A6
+P 1675 1900
+F 0 "C?" V 1625 1800 50  0000 C CNN
+F 1 ".1u" V 1625 2025 50  0000 C CNN
+F 2 "" H 1675 1900 50  0001 C CNN
+F 3 "~" H 1675 1900 50  0001 C CNN
+	1    1675 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 3100
+Wire Wire Line
+	5700 3100 6975 3100
+Connection ~ 4425 3100
+Wire Wire Line
+	4425 3100 5700 3100
+Wire Wire Line
+	3150 3100 4425 3100
+$Comp
+L SwitchBackplaneParts:74HC4316 U?
+U 4 1 61253A42
+P 6975 2725
+F 0 "U?" V 6929 2855 50  0000 L CNN
+F 1 "74HC4316" V 7020 2855 50  0000 L CNN
+F 2 "" H 6975 2625 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf" H 6975 2725 50  0001 C CNN
+	4    6975 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L SwitchBackplaneParts:74HC4316 U?
+U 3 1 61251281
+P 5700 2725
+F 0 "U?" V 5654 2855 50  0000 L CNN
+F 1 "74HC4316" V 5745 2855 50  0000 L CNN
+F 2 "" H 5700 2625 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf" H 5700 2725 50  0001 C CNN
+	3    5700 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L SwitchBackplaneParts:74HC4316 U?
+U 2 1 6124DC7C
+P 4425 2725
+F 0 "U?" V 4379 2855 50  0000 L CNN
+F 1 "74HC4316" V 4470 2855 50  0000 L CNN
+F 2 "" H 4425 2625 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf" H 4425 2725 50  0001 C CNN
+	2    4425 2725
+	0    1    1    0   
+$EndComp
+$Comp
+L SwitchBackplaneParts:74HC4316 U?
+U 1 1 6124A0A4
+P 3150 2725
+F 0 "U?" V 3104 2855 50  0000 L CNN
+F 1 "74HC4316" V 3195 2855 50  0000 L CNN
+F 2 "" H 3150 2625 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf" H 3150 2725 50  0001 C CNN
+	1    3150 2725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6975 3100 6975 3025
+Wire Wire Line
+	5700 3100 5700 3025
+Wire Wire Line
+	4425 3100 4425 3025
+Wire Wire Line
+	3150 3025 3150 3100
+Wire Wire Line
+	3150 2425 3150 2325
+Wire Wire Line
+	4425 2325 4425 2425
+Wire Wire Line
+	5700 2325 5700 2425
+Wire Wire Line
+	6975 2325 6975 2425
+Connection ~ 3150 2025
+Wire Wire Line
+	3150 2125 3150 2025
+Connection ~ 4425 2025
+Wire Wire Line
+	4425 2125 4425 2025
+Connection ~ 5700 2025
+Wire Wire Line
+	5700 2025 5700 2125
+Connection ~ 6975 2025
+Wire Wire Line
+	6975 2025 6975 2125
+$Comp
 L Device:R_Small R?
-U 1 1 61338D5A
-P 3525 2350
-F 0 "R?" H 3375 2175 50  0000 C CNN
-F 1 "100k" H 3375 2250 50  0000 C CNN
-F 2 "" H 3525 2350 50  0001 C CNN
-F 3 "~" H 3525 2350 50  0001 C CNN
-	1    3525 2350
+U 1 1 61339AA3
+P 6975 2225
+F 0 "R?" H 6825 2050 50  0000 C CNN
+F 1 "100k" H 6825 2125 50  0000 C CNN
+F 2 "" H 6975 2225 50  0001 C CNN
+F 3 "~" H 6975 2225 50  0001 C CNN
+	1    6975 2225
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 61339481
-P 4800 2350
-F 0 "R?" H 4650 2175 50  0000 C CNN
-F 1 "100k" H 4650 2250 50  0000 C CNN
-F 2 "" H 4800 2350 50  0001 C CNN
-F 3 "~" H 4800 2350 50  0001 C CNN
-	1    4800 2350
+P 5700 2225
+F 0 "R?" H 5550 2050 50  0000 C CNN
+F 1 "100k" H 5550 2125 50  0000 C CNN
+F 2 "" H 5700 2225 50  0001 C CNN
+F 3 "~" H 5700 2225 50  0001 C CNN
+	1    5700 2225
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 61339AA3
-P 6075 2350
-F 0 "R?" H 5925 2175 50  0000 C CNN
-F 1 "100k" H 5925 2250 50  0000 C CNN
-F 2 "" H 6075 2350 50  0001 C CNN
-F 3 "~" H 6075 2350 50  0001 C CNN
-	1    6075 2350
+U 1 1 61338D5A
+P 4425 2225
+F 0 "R?" H 4275 2050 50  0000 C CNN
+F 1 "100k" H 4275 2125 50  0000 C CNN
+F 2 "" H 4425 2225 50  0001 C CNN
+F 3 "~" H 4425 2225 50  0001 C CNN
+	1    4425 2225
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6133787F
+P 3150 2225
+F 0 "R?" H 3000 2050 50  0000 C CNN
+F 1 "100k" H 3000 2125 50  0000 C CNN
+F 2 "" H 3150 2225 50  0001 C CNN
+F 3 "~" H 3150 2225 50  0001 C CNN
+	1    3150 2225
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612871EF
+P 5875 1675
+F 0 "#PWR?" H 5875 1425 50  0001 C CNN
+F 1 "GND" H 5880 1502 50  0000 C CNN
+F 2 "" H 5875 1675 50  0001 C CNN
+F 3 "" H 5875 1675 50  0001 C CNN
+	1    5875 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 1500 5875 1675
+Connection ~ 5875 1500
+Connection ~ 6275 1500
+Wire Wire Line
+	6000 1500 5875 1500
+Wire Wire Line
+	6275 1500 6200 1500
+Wire Wire Line
+	5875 1300 5875 1500
+Wire Wire Line
+	5875 1125 6000 1125
+Wire Wire Line
+	5875 1300 6000 1300
+Connection ~ 5875 1300
+Wire Wire Line
+	5875 1125 5875 1300
+Connection ~ 6275 1125
+Wire Wire Line
+	6275 1125 6200 1125
+Connection ~ 6275 1300
+Wire Wire Line
+	6275 1300 6200 1300
+Wire Wire Line
+	6275 1300 6275 1125
+$Comp
+L Device:C_Small C?
+U 1 1 612871DA
+P 6100 1125
+F 0 "C?" V 6275 1125 50  0000 C CNN
+F 1 ".1u" V 6200 1125 50  0000 C CNN
+F 2 "" H 6100 1125 50  0001 C CNN
+F 3 "~" H 6100 1125 50  0001 C CNN
+	1    6100 1125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6275 1125 6450 1125
+Wire Wire Line
+	6325 1300 6275 1300
+Wire Wire Line
+	6700 1125 6650 1125
+$Comp
+L Device:C_Small C?
+U 1 1 612871D1
+P 6550 1125
+F 0 "C?" V 6375 1125 50  0000 C CNN
+F 1 ".1u" V 6450 1125 50  0000 C CNN
+F 2 "" H 6550 1125 50  0001 C CNN
+F 3 "~" H 6550 1125 50  0001 C CNN
+	1    6550 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 1125 6975 1125
+Wire Wire Line
+	6975 1675 6975 1875
+Connection ~ 6975 1675
+Wire Wire Line
+	6750 1675 6975 1675
+Wire Wire Line
+	6275 1675 6550 1675
+Wire Wire Line
+	6975 1400 6975 1675
+$Comp
+L Device:R_Small R?
+U 1 1 612871C5
+P 6100 1300
+F 0 "R?" V 6150 1175 50  0000 C CNN
+F 1 "2.55k" V 6175 1425 50  0000 C CNN
+F 2 "" H 6100 1300 50  0001 C CNN
+F 3 "~" H 6100 1300 50  0001 C CNN
+	1    6100 1300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6975 1400
+Wire Wire Line
+	6975 1125 6975 1400
+$Comp
+L Device:R_Small R?
+U 1 1 612871BD
+P 6800 1125
+F 0 "R?" V 6625 1125 50  0000 C CNN
+F 1 "2.55k" V 6700 1125 50  0000 C CNN
+F 2 "" H 6800 1125 50  0001 C CNN
+F 3 "~" H 6800 1125 50  0001 C CNN
+	1    6800 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 2025 6275 2025
+Wire Wire Line
+	6275 1875 6275 1675
+Connection ~ 6275 1875
+Wire Wire Line
+	6500 1875 6275 1875
+Wire Wire Line
+	6800 2025 6975 2025
+Connection ~ 6975 1875
+Wire Wire Line
+	6800 1875 6975 1875
+Wire Wire Line
+	6275 2025 6275 1875
+Wire Wire Line
+	6975 2025 6975 1875
+$Comp
+L Diode:1N4148 D?
+U 1 1 612871AE
+P 6650 2025
+F 0 "D?" H 6775 2075 50  0000 C CNN
+F 1 "1N4148" H 6425 2075 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6650 1850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 2025 50  0001 C CNN
+	1    6650 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 612871A8
+P 6650 1875
+F 0 "D?" H 6525 1825 50  0000 C CNN
+F 1 "1N4148" H 6875 1825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6650 1700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6650 1875 50  0001 C CNN
+	1    6650 1875
+	-1   0    0    1   
+$EndComp
+Connection ~ 6275 1675
+Wire Wire Line
+	6275 1500 6275 1675
+$Comp
+L Device:R_Small R?
+U 1 1 612871A0
+P 6100 1500
+F 0 "R?" V 6150 1375 50  0000 C CNN
+F 1 "2.2k" V 6175 1625 50  0000 C CNN
+F 2 "" H 6100 1500 50  0001 C CNN
+F 3 "~" H 6100 1500 50  0001 C CNN
+	1    6100 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6975 1400 6925 1400
+Wire Wire Line
+	6275 1500 6325 1500
+$Comp
+L Device:R_Small R?
+U 1 1 61287198
+P 6650 1675
+F 0 "R?" V 6575 1675 50  0000 C CNN
+F 1 "4.7k" V 6725 1675 50  0000 C CNN
+F 2 "" H 6650 1675 50  0001 C CNN
+F 3 "~" H 6650 1675 50  0001 C CNN
+	1    6650 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61287192
+P 4600 1675
+F 0 "#PWR?" H 4600 1425 50  0001 C CNN
+F 1 "GND" H 4605 1502 50  0000 C CNN
+F 2 "" H 4600 1675 50  0001 C CNN
+F 3 "" H 4600 1675 50  0001 C CNN
+	1    4600 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1500 4600 1675
+Connection ~ 4600 1500
+Connection ~ 5000 1500
+Wire Wire Line
+	4725 1500 4600 1500
+Wire Wire Line
+	5000 1500 4925 1500
+Wire Wire Line
+	4600 1300 4600 1500
+Wire Wire Line
+	4600 1125 4725 1125
+Wire Wire Line
+	4600 1300 4725 1300
+Connection ~ 4600 1300
+Wire Wire Line
+	4600 1125 4600 1300
+Connection ~ 5000 1125
+Wire Wire Line
+	5000 1125 4925 1125
+Connection ~ 5000 1300
+Wire Wire Line
+	5000 1300 4925 1300
+Wire Wire Line
+	5000 1300 5000 1125
+$Comp
+L Device:C_Small C?
+U 1 1 6128717D
+P 4825 1125
+F 0 "C?" V 5000 1125 50  0000 C CNN
+F 1 ".1u" V 4925 1125 50  0000 C CNN
+F 2 "" H 4825 1125 50  0001 C CNN
+F 3 "~" H 4825 1125 50  0001 C CNN
+	1    4825 1125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 1125 5175 1125
+Wire Wire Line
+	5050 1300 5000 1300
+Wire Wire Line
+	5425 1125 5375 1125
+$Comp
+L Device:C_Small C?
+U 1 1 61287174
+P 5275 1125
+F 0 "C?" V 5100 1125 50  0000 C CNN
+F 1 ".1u" V 5175 1125 50  0000 C CNN
+F 2 "" H 5275 1125 50  0001 C CNN
+F 3 "~" H 5275 1125 50  0001 C CNN
+	1    5275 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5625 1125 5700 1125
+Wire Wire Line
+	5700 1675 5700 1875
+Connection ~ 5700 1675
+Wire Wire Line
+	5475 1675 5700 1675
+Wire Wire Line
+	5000 1675 5275 1675
+Wire Wire Line
+	5700 1400 5700 1675
+$Comp
+L Device:R_Small R?
+U 1 1 61287168
+P 4825 1300
+F 0 "R?" V 4875 1175 50  0000 C CNN
+F 1 "3.32k" V 4900 1425 50  0000 C CNN
+F 2 "" H 4825 1300 50  0001 C CNN
+F 3 "~" H 4825 1300 50  0001 C CNN
+	1    4825 1300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5700 1400
+Wire Wire Line
+	5700 1125 5700 1400
+$Comp
+L Device:R_Small R?
+U 1 1 61287160
+P 5525 1125
+F 0 "R?" V 5350 1125 50  0000 C CNN
+F 1 "3.32k" V 5425 1125 50  0000 C CNN
+F 2 "" H 5525 1125 50  0001 C CNN
+F 3 "~" H 5525 1125 50  0001 C CNN
+	1    5525 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5225 2025 5000 2025
+Wire Wire Line
+	5000 1875 5000 1675
+Connection ~ 5000 1875
+Wire Wire Line
+	5225 1875 5000 1875
+Wire Wire Line
+	5525 2025 5700 2025
+Connection ~ 5700 1875
+Wire Wire Line
+	5525 1875 5700 1875
+Wire Wire Line
+	5000 2025 5000 1875
+Wire Wire Line
+	5700 2025 5700 1875
+$Comp
+L Diode:1N4148 D?
+U 1 1 61287151
+P 5375 2025
+F 0 "D?" H 5500 2075 50  0000 C CNN
+F 1 "1N4148" H 5150 2075 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5375 1850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5375 2025 50  0001 C CNN
+	1    5375 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6128714B
+P 5375 1875
+F 0 "D?" H 5250 1825 50  0000 C CNN
+F 1 "1N4148" H 5600 1825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5375 1700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5375 1875 50  0001 C CNN
+	1    5375 1875
+	-1   0    0    1   
+$EndComp
+Connection ~ 5000 1675
+Wire Wire Line
+	5000 1500 5000 1675
+$Comp
+L Device:R_Small R?
+U 1 1 61287143
+P 4825 1500
+F 0 "R?" V 4875 1375 50  0000 C CNN
+F 1 "2.2k" V 4900 1625 50  0000 C CNN
+F 2 "" H 4825 1500 50  0001 C CNN
+F 3 "~" H 4825 1500 50  0001 C CNN
+	1    4825 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 1400 5650 1400
+Wire Wire Line
+	5000 1500 5050 1500
+$Comp
+L Device:R_Small R?
+U 1 1 6128713B
+P 5375 1675
+F 0 "R?" V 5300 1675 50  0000 C CNN
+F 1 "4.7k" V 5450 1675 50  0000 C CNN
+F 2 "" H 5375 1675 50  0001 C CNN
+F 3 "~" H 5375 1675 50  0001 C CNN
+	1    5375 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612716C2
+P 3325 1675
+F 0 "#PWR?" H 3325 1425 50  0001 C CNN
+F 1 "GND" H 3330 1502 50  0000 C CNN
+F 2 "" H 3325 1675 50  0001 C CNN
+F 3 "" H 3325 1675 50  0001 C CNN
+	1    3325 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 1500 3325 1675
+Connection ~ 3325 1500
+Connection ~ 3725 1500
+Wire Wire Line
+	3450 1500 3325 1500
+Wire Wire Line
+	3725 1500 3650 1500
+Wire Wire Line
+	3325 1300 3325 1500
+Wire Wire Line
+	3325 1125 3450 1125
+Wire Wire Line
+	3325 1300 3450 1300
+Connection ~ 3325 1300
+Wire Wire Line
+	3325 1125 3325 1300
+Connection ~ 3725 1125
+Wire Wire Line
+	3725 1125 3650 1125
+Connection ~ 3725 1300
+Wire Wire Line
+	3725 1300 3650 1300
+Wire Wire Line
+	3725 1300 3725 1125
+$Comp
+L Device:C_Small C?
+U 1 1 612716AD
+P 3550 1125
+F 0 "C?" V 3725 1125 50  0000 C CNN
+F 1 ".1u" V 3650 1125 50  0000 C CNN
+F 2 "" H 3550 1125 50  0001 C CNN
+F 3 "~" H 3550 1125 50  0001 C CNN
+	1    3550 1125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3725 1125 3900 1125
+Wire Wire Line
+	3775 1300 3725 1300
+Wire Wire Line
+	4150 1125 4100 1125
+$Comp
+L Device:C_Small C?
+U 1 1 612716A4
+P 4000 1125
+F 0 "C?" V 3825 1125 50  0000 C CNN
+F 1 ".1u" V 3900 1125 50  0000 C CNN
+F 2 "" H 4000 1125 50  0001 C CNN
+F 3 "~" H 4000 1125 50  0001 C CNN
+	1    4000 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 1125 4425 1125
+Wire Wire Line
+	4425 1675 4425 1875
+Connection ~ 4425 1675
+Wire Wire Line
+	4200 1675 4425 1675
+Wire Wire Line
+	3725 1675 4000 1675
+Wire Wire Line
+	4425 1400 4425 1675
+$Comp
+L Device:R_Small R?
+U 1 1 61271698
+P 3550 1300
+F 0 "R?" V 3600 1175 50  0000 C CNN
+F 1 "3.6k" V 3625 1425 50  0000 C CNN
+F 2 "" H 3550 1300 50  0001 C CNN
+F 3 "~" H 3550 1300 50  0001 C CNN
+	1    3550 1300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4425 1400
+Wire Wire Line
+	4425 1125 4425 1400
+$Comp
+L Device:R_Small R?
+U 1 1 61271690
+P 4250 1125
+F 0 "R?" V 4075 1125 50  0000 C CNN
+F 1 "3.6k" V 4150 1125 50  0000 C CNN
+F 2 "" H 4250 1125 50  0001 C CNN
+F 3 "~" H 4250 1125 50  0001 C CNN
+	1    4250 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 2025 3725 2025
+Wire Wire Line
+	3725 1875 3725 1675
+Connection ~ 3725 1875
+Wire Wire Line
+	3950 1875 3725 1875
+Wire Wire Line
+	4250 2025 4425 2025
+Connection ~ 4425 1875
+Wire Wire Line
+	4250 1875 4425 1875
+Wire Wire Line
+	3725 2025 3725 1875
+Wire Wire Line
+	4425 2025 4425 1875
+$Comp
+L Diode:1N4148 D?
+U 1 1 61271681
+P 4100 2025
+F 0 "D?" H 4225 2075 50  0000 C CNN
+F 1 "1N4148" H 3875 2075 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4100 1850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4100 2025 50  0001 C CNN
+	1    4100 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6127167B
+P 4100 1875
+F 0 "D?" H 3975 1825 50  0000 C CNN
+F 1 "1N4148" H 4325 1825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4100 1700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4100 1875 50  0001 C CNN
+	1    4100 1875
+	-1   0    0    1   
+$EndComp
+Connection ~ 3725 1675
+Wire Wire Line
+	3725 1500 3725 1675
+$Comp
+L Device:R_Small R?
+U 1 1 61271673
+P 3550 1500
+F 0 "R?" V 3600 1375 50  0000 C CNN
+F 1 "2.2k" V 3625 1625 50  0000 C CNN
+F 2 "" H 3550 1500 50  0001 C CNN
+F 3 "~" H 3550 1500 50  0001 C CNN
+	1    3550 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4425 1400 4375 1400
+Wire Wire Line
+	3725 1500 3775 1500
+$Comp
+L Device:R_Small R?
+U 1 1 6127166B
+P 4100 1675
+F 0 "R?" V 4025 1675 50  0000 C CNN
+F 1 "4.7k" V 4175 1675 50  0000 C CNN
+F 2 "" H 4100 1675 50  0001 C CNN
+F 3 "~" H 4100 1675 50  0001 C CNN
+	1    4100 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6126B43B
+P 2050 1675
+F 0 "#PWR?" H 2050 1425 50  0001 C CNN
+F 1 "GND" H 2055 1502 50  0000 C CNN
+F 2 "" H 2050 1675 50  0001 C CNN
+F 3 "" H 2050 1675 50  0001 C CNN
+	1    2050 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1500 2050 1675
+Connection ~ 2050 1500
+Connection ~ 2450 1500
+Wire Wire Line
+	2175 1500 2050 1500
+Wire Wire Line
+	2450 1500 2375 1500
+Wire Wire Line
+	2050 1300 2050 1500
+Wire Wire Line
+	2050 1125 2175 1125
+Wire Wire Line
+	2050 1300 2175 1300
+Connection ~ 2050 1300
+Wire Wire Line
+	2050 1125 2050 1300
+Connection ~ 2450 1125
+Wire Wire Line
+	2450 1125 2375 1125
+Connection ~ 2450 1300
+Wire Wire Line
+	2450 1300 2375 1300
+Wire Wire Line
+	2450 1300 2450 1125
+$Comp
+L Device:C_Small C?
+U 1 1 6125DBA1
+P 2275 1125
+F 0 "C?" V 2450 1125 50  0000 C CNN
+F 1 ".1u" V 2375 1125 50  0000 C CNN
+F 2 "" H 2275 1125 50  0001 C CNN
+F 3 "~" H 2275 1125 50  0001 C CNN
+	1    2275 1125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 1125 2625 1125
+Wire Wire Line
+	2500 1300 2450 1300
+Wire Wire Line
+	2875 1125 2825 1125
+$Comp
+L Device:C_Small C?
+U 1 1 6126293D
+P 2725 1125
+F 0 "C?" V 2550 1125 50  0000 C CNN
+F 1 ".1u" V 2625 1125 50  0000 C CNN
+F 2 "" H 2725 1125 50  0001 C CNN
+F 3 "~" H 2725 1125 50  0001 C CNN
+	1    2725 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3075 1125 3150 1125
+Wire Wire Line
+	3150 1675 3150 1875
+Connection ~ 3150 1675
+Wire Wire Line
+	2925 1675 3150 1675
+Wire Wire Line
+	2450 1675 2725 1675
+Wire Wire Line
+	3150 1400 3150 1675
+$Comp
+L Device:R_Small R?
+U 1 1 6125E81A
+P 2275 1300
+F 0 "R?" V 2325 1175 50  0000 C CNN
+F 1 "4.53k" V 2350 1425 50  0000 C CNN
+F 2 "" H 2275 1300 50  0001 C CNN
+F 3 "~" H 2275 1300 50  0001 C CNN
+	1    2275 1300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3150 1400
+Wire Wire Line
+	3150 1125 3150 1400
+$Comp
+L Device:R_Small R?
+U 1 1 6125A927
+P 2975 1125
+F 0 "R?" V 2800 1125 50  0000 C CNN
+F 1 "4.53k" V 2875 1125 50  0000 C CNN
+F 2 "" H 2975 1125 50  0001 C CNN
+F 3 "~" H 2975 1125 50  0001 C CNN
+	1    2975 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2675 2025 2450 2025
+Wire Wire Line
+	2450 1875 2450 1675
+Connection ~ 2450 1875
+Wire Wire Line
+	2675 1875 2450 1875
+Wire Wire Line
+	2975 2025 3150 2025
+Connection ~ 3150 1875
+Wire Wire Line
+	2975 1875 3150 1875
+Wire Wire Line
+	2450 2025 2450 1875
+Wire Wire Line
+	3150 2025 3150 1875
+$Comp
+L Diode:1N4148 D?
+U 1 1 6124EB8F
+P 2825 2025
+F 0 "D?" H 2950 2075 50  0000 C CNN
+F 1 "1N4148" H 2600 2075 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2825 1850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2825 2025 50  0001 C CNN
+	1    2825 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 6124B687
+P 2825 1875
+F 0 "D?" H 2700 1825 50  0000 C CNN
+F 1 "1N4148" H 3050 1825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2825 1700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2825 1875 50  0001 C CNN
+	1    2825 1875
+	-1   0    0    1   
+$EndComp
+Connection ~ 2450 1675
+Wire Wire Line
+	2450 1500 2450 1675
+$Comp
+L Device:R_Small R?
+U 1 1 6124347A
+P 2275 1500
+F 0 "R?" V 2325 1375 50  0000 C CNN
+F 1 "2.2k" V 2350 1625 50  0000 C CNN
+F 2 "" H 2275 1500 50  0001 C CNN
+F 3 "~" H 2275 1500 50  0001 C CNN
+	1    2275 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 1400 3100 1400
+Wire Wire Line
+	2450 1500 2500 1500
+$Comp
+L Device:R_Small R?
+U 1 1 61240C7F
+P 2825 1675
+F 0 "R?" V 2750 1675 50  0000 C CNN
+F 1 "4.7k" V 2900 1675 50  0000 C CNN
+F 2 "" H 2825 1675 50  0001 C CNN
+F 3 "~" H 2825 1675 50  0001 C CNN
+	1    2825 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U?
+U 4 1 61234CF5
+P 6625 1400
+F 0 "U?" H 6500 1425 50  0000 C CNN
+F 1 "TL074" H 6550 1350 50  0000 C CNN
+F 2 "" H 6575 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6675 1600 50  0001 C CNN
+	4    6625 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U?
+U 3 1 61233234
+P 5350 1400
+F 0 "U?" H 5225 1425 50  0000 C CNN
+F 1 "TL074" H 5275 1350 50  0000 C CNN
+F 2 "" H 5300 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5400 1600 50  0001 C CNN
+	3    5350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U?
+U 2 1 61231DF4
+P 4075 1400
+F 0 "U?" H 3950 1425 50  0000 C CNN
+F 1 "TL074" H 4000 1350 50  0000 C CNN
+F 2 "" H 4025 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4125 1600 50  0001 C CNN
+	2    4075 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U?
+U 1 1 612305ED
+P 2800 1400
+F 0 "U?" H 2675 1425 50  0000 C CNN
+F 1 "TL074" H 2725 1350 50  0000 C CNN
+F 2 "" H 2750 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2850 1600 50  0001 C CNN
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 1400 1675 1600
+Wire Wire Line
+	1675 1600 1675 1800
+Wire Wire Line
+	1300 1100 1300 1000
+Wire Wire Line
+	1300 1000 1675 1000
+Wire Wire Line
+	1675 1000 1675 1200
+Wire Wire Line
+	1675 2000 1675 2200
+Wire Wire Line
+	1675 2200 1400 2200
+Wire Wire Line
+	1400 2200 1400 2100
+$Comp
+L power:GND #PWR?
+U 1 1 613368C1
+P 1300 2250
+F 0 "#PWR?" H 1300 2000 50  0001 C CNN
+F 1 "GND" H 1305 2077 50  0000 C CNN
+F 2 "" H 1300 2250 50  0001 C CNN
+F 3 "" H 1300 2250 50  0001 C CNN
+	1    1300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2250 1300 2100
+$Comp
+L power:+5V #PWR?
+U 1 1 6133EC17
+P 1675 900
+F 0 "#PWR?" H 1675 750 50  0001 C CNN
+F 1 "+5V" H 1690 1073 50  0000 C CNN
+F 2 "" H 1675 900 50  0001 C CNN
+F 3 "" H 1675 900 50  0001 C CNN
+	1    1675 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 6133F2C5
+P 1675 2300
+F 0 "#PWR?" H 1675 2400 50  0001 C CNN
+F 1 "-5V" H 1690 2473 50  0000 C CNN
+F 2 "" H 1675 2300 50  0001 C CNN
+F 3 "" H 1675 2300 50  0001 C CNN
+	1    1675 2300
+	-1   0    0    1   
+$EndComp
+Connection ~ 1675 2200
+Wire Wire Line
+	1675 2200 1675 2300
+Wire Wire Line
+	1675 900  1675 1000
+Connection ~ 1675 1000
+$Comp
+L SwitchBackplaneParts:TL071 U?
+U 1 1 613A14B7
+P 8050 1400
+F 0 "U?" H 8150 1475 50  0000 L CNN
+F 1 "TL071" H 7950 1400 50  0000 L CNN
+F 2 "" H 8100 1450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tl074.pdf" H 8200 1550 50  0001 C CNN
+	1    8050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 613AB3BE
+P 7650 2050
+F 0 "R?" H 7500 1875 50  0000 C CNN
+F 1 "100k" H 7500 1950 50  0000 C CNN
+F 2 "" H 7650 2050 50  0001 C CNN
+F 3 "~" H 7650 2050 50  0001 C CNN
+	1    7650 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1400 8350 1400
+Wire Wire Line
+	7650 1500 7650 1875
+Wire Wire Line
+	7650 1875 8450 1875
+Wire Wire Line
+	7650 1500 7750 1500
+$Comp
+L power:GND #PWR?
+U 1 1 613E744F
+P 7650 1350
+F 0 "#PWR?" H 7650 1100 50  0001 C CNN
+F 1 "GND" H 7500 1350 50  0000 C CNN
+F 2 "" H 7650 1350 50  0001 C CNN
+F 3 "" H 7650 1350 50  0001 C CNN
+	1    7650 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1350 7650 1300
+Wire Wire Line
+	7650 1300 7750 1300
+Wire Wire Line
+	8450 1875 8450 1775
+Wire Wire Line
+	8450 1475 8450 1400
+$Comp
+L Device:RTRIM R?
+U 1 1 613F1626
+P 8450 1625
+F 0 "R?" H 8578 1671 50  0000 L CNN
+F 1 "470k" H 8578 1580 50  0000 L CNN
+F 2 "" V 8380 1625 50  0001 C CNN
+F 3 "~" H 8450 1625 50  0001 C CNN
+	1    8450 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1950 7650 1875
+Connection ~ 7650 1875
+Wire Wire Line
+	7650 2150 7650 3100
+Wire Wire Line
+	7650 3100 6975 3100
+Connection ~ 6975 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 6140589C
+P 7950 1050
+F 0 "#PWR?" H 7950 900 50  0001 C CNN
+F 1 "+5V" H 7965 1223 50  0000 C CNN
+F 2 "" H 7950 1050 50  0001 C CNN
+F 3 "" H 7950 1050 50  0001 C CNN
+	1    7950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 614061CB
+P 7950 1750
+F 0 "#PWR?" H 7950 1850 50  0001 C CNN
+F 1 "-5V" H 7965 1923 50  0000 C CNN
+F 2 "" H 7950 1750 50  0001 C CNN
+F 3 "" H 7950 1750 50  0001 C CNN
+	1    7950 1750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6075 2150 6075 2250
-Connection ~ 6075 2150
+	7950 1750 7950 1700
 Wire Wire Line
-	4800 2150 4800 2250
-Connection ~ 4800 2150
-Wire Wire Line
-	3525 2250 3525 2150
-Connection ~ 3525 2150
-Wire Wire Line
-	2250 2250 2250 2150
-Connection ~ 2250 2150
-$Comp
-L SwitchBackplaneParts:74HC4066 U?
-U 1 1 613A089B
-P 2250 2850
-F 0 "U?" V 2204 2980 50  0000 L CNN
-F 1 "74HC4066" V 2295 2980 50  0000 L CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 2250 2750 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 2250 2850 50  0001 C CNN
-	1    2250 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L SwitchBackplaneParts:74HC4066 U?
-U 2 1 613A3661
-P 3525 2850
-F 0 "U?" V 3479 2980 50  0000 L CNN
-F 1 "74HC4066" V 3570 2980 50  0000 L CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 3525 2750 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 3525 2850 50  0001 C CNN
-	2    3525 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L SwitchBackplaneParts:74HC4066 U?
-U 3 1 613A8BFF
-P 4800 2850
-F 0 "U?" V 4754 2980 50  0000 L CNN
-F 1 "74HC4066" V 4845 2980 50  0000 L CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 4800 2750 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 4800 2850 50  0001 C CNN
-	3    4800 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L SwitchBackplaneParts:74HC4066 U?
-U 4 1 613ACFA0
-P 6075 2850
-F 0 "U?" V 6029 2980 50  0000 L CNN
-F 1 "74HC4066" V 6120 2980 50  0000 L CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 6075 2750 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 6075 2850 50  0001 C CNN
-	4    6075 2850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6075 2450 6075 2550
-Wire Wire Line
-	4800 2450 4800 2550
-Wire Wire Line
-	3525 2450 3525 2550
-Wire Wire Line
-	2250 2550 2250 2450
-Wire Wire Line
-	2250 3150 2250 3225
-Wire Wire Line
-	2250 3225 3525 3225
-Wire Wire Line
-	3525 3225 3525 3150
-Wire Wire Line
-	3525 3225 4800 3225
-Wire Wire Line
-	4800 3225 4800 3150
-Connection ~ 3525 3225
-Wire Wire Line
-	4800 3225 6075 3225
-Wire Wire Line
-	6075 3225 6075 3150
-Connection ~ 4800 3225
+	7950 1050 7950 1100
 $EndSCHEMATC
