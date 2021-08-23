@@ -1,6 +1,8 @@
 Spice/*/*.raw
 Spice/*/*.plt
 Spice/*/*.log
+Spice/*/*.fft
 Spice/*.raw
 Spice/*.plt
 Spice/*.log
+Spice/*.fft

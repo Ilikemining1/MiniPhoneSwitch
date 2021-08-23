@@ -42,8 +42,9 @@ Electronic Controlled Electromechanical Switch:
 		Tone Banks:
 			DTMF Decoder: MT8870 https://www.microsemi.com/document-portal/doc_view/127041-mt8870d-datasheet-oct2006
 			Tone Generator:
-				4 Wein Bridge Oscillators, 350Hz, 440Hz, 480Hz, and 620Hz
-				74HC4066 to mix frequencies
+				4 Wien Bridge Oscillators, 350Hz, 440Hz, 480Hz, and 620Hz
+				74HC4316 to mix frequencies
+				https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf
 				TL074 OP Amp
 		Microcontroller:
 			Pin requirements:
