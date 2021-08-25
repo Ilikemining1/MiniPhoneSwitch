@@ -17,7 +17,7 @@ Electronic Controlled Electromechanical Switch:
 		2 tone buses individually selectable.
 	Electrical Parameters:
 		Ring Generator:
-			~1.2VA per 1 REN (13mA @ 90VRMS)
+			~1.2VA per 1 REN (13mA @ 90Vrms)
 			Dividing active time can effectively triple REN capability of tranformer
 			6 VA transformer: 5 REN no time division, effectively 15 REN with division
 			Match amp wattage out approximately with transformer VA
@@ -43,9 +43,8 @@ Electronic Controlled Electromechanical Switch:
 			DTMF Decoder: MT8870 https://www.microsemi.com/document-portal/doc_view/127041-mt8870d-datasheet-oct2006
 			Tone Generator:
 				4 Wien Bridge Oscillators, 350Hz, 440Hz, 480Hz, and 620Hz
-				74HC4316 to mix frequencies
-				https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf
-				TL074 OP Amp
+				74HC4316 to mix frequencies https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf
+				TL074 OP Amp https://www.ti.com/lit/ds/symlink/tl071h.pdf
 		Microcontroller:
 			Pin requirements:
 				Trunks:
