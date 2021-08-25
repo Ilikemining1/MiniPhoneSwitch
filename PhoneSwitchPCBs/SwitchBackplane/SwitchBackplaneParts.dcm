@@ -12,6 +12,12 @@ K CMOS Analog Switch
 F https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf
 $ENDCMP
 #
+$CMP PMBD7000
+D High-speed switching diodes, dual series, SOT-23
+K Diode
+F https://www.mouser.com/datasheet/2/916/PMBD7000-1320244.pdf
+$ENDCMP
+#
 $CMP TL071
 D Single Operational Amplifier
 K single opamp
