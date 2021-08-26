@@ -12,6 +12,12 @@ K CMOS Analog Switch
 F https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf
 $ENDCMP
 #
+$CMP PDME1-S12-D5-S
+D 1W, 1500 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 12V Input Voltage, SIP
+K DC/DC isolated Converter module
+F https://www.mouser.com/datasheet/2/670/pdme1_s-1595987.pdf
+$ENDCMP
+#
 $CMP PMBD7000
 D High-speed switching diodes, dual series, SOT-23
 K Diode

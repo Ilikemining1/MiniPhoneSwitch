@@ -1,4 +1,4 @@
-19002321528271121
+19003951453633121
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51680,6 +51680,13 @@ Integrated Circuit
 0
 8
 8
+Imported_Parts
+PDME1S12D5S
+19.65*6*10.16mm
+Power Supply
+0
+5
+5
 Imported_Parts
 PSMN5R660YLX
 LFPAK56; PowerSO8 (SOT669)
