@@ -1,8 +1,7 @@
 Electronic Controlled Electromechanical Switch:
 	Trunks:
 		0-2 POTS trunk lines
-		DID support if possible, would need to parse Caller ID
-		If not, programmable extension ringing
+		Programmable extension ringing
 	Stations:
 		0-8 Analog stations, each with programmable DNs.  
 		DTMF and Pulse Support
@@ -21,6 +20,8 @@ Electronic Controlled Electromechanical Switch:
 			Dividing active time can effectively triple REN capability of tranformer
 			6 VA transformer: 5 REN no time division, effectively 15 REN with division
 			Match amp wattage out approximately with transformer VA
+			Transformer: FS28-200-C2 https://www.mouser.com/datasheet/2/410/FS28_200_C2-781258.pdf
+			Amp: TPA3144D2 https://www.ti.com/lit/ds/symlink/tpa3144d2.pdf
 		Station Cards:
 			Gyrators to provide balaced line
 			Ring / Voice Relay
