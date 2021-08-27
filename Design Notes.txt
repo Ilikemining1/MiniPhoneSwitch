@@ -49,18 +49,20 @@ Electronic Controlled Electromechanical Switch:
 		Microcontroller:
 			Pin requirements:
 				Trunks:
-					2 Ring Sense (Input)
+					2 Ring Sense (Input) (Interrupt)
 					4 Trunk Routing (Output)
 					2 Trunk Module Detect (Input)
 				Stations:
 					8 Ring Enable (Output)
-					8 Hook Detect / Dial Pulse (Input)
+					8 Hook Detect / Dial Pulse (Input) (Interrupt)
 					32 Call Routing (Output)
 					8 Station Module Detect (Input)
+					1 Ring Gen Enable
 				Tone Banks:
 					8 DTMF Decoder Sense (Input)
-					Currently TBD Output for Tone Generation, probably I2C (Output)
-				Total: 28 Inputs, 44 Outputs, Total 72 GPIO
+					2 Digits Ready Sense (Input) (Interrupt)
+					8 Tone Select (Output)
+				Total: 30 Inputs (12 Interrupts), 53 Outputs, Total 83 GPIO
 				This is an estimate and will likely change with time and the design.  
 				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf, XRA1403IG24TR-F https://www.mouser.com/datasheet/2/146/XRA1403_100_092011-1889074.pdf
 		Power Supply:
