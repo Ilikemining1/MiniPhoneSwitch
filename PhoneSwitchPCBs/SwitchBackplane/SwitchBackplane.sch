@@ -4723,17 +4723,6 @@ F 3 "~" H 2600 6400 50  0001 C CNN
 	1    2600 6400
 	1    0    0    -1  
 $EndComp
-$Comp
-L PhoneInterfaceParts:XP231N02013R-G Q?
-U 1 1 69235CAD
-P 2800 6775
-F 0 "Q?" H 3005 6821 50  0000 L CNN
-F 1 "XP231N02013R-G" H 3005 6730 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 3000 6700 50  0001 L CIN
-F 3 "https://www.torexsemi.com/file/XP231N02013R/XP231N02013R.pdf" H 2800 6775 50  0001 L CNN
-	1    2800 6775
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3475 6975 3550 6975
 $Comp
@@ -4795,7 +4784,6 @@ Wire Wire Line
 	2900 6975 2900 7200
 Wire Wire Line
 	2975 6975 2900 6975
-Connection ~ 2900 6975
 Wire Wire Line
 	3225 6975 3225 7075
 Wire Wire Line
@@ -4823,4 +4811,16 @@ Wire Wire Line
 	2300 6575 2200 6575
 Text Label 2200 6575 2    50   ~ 0
 RGE
+$Comp
+L PhoneInterfaceParts:XP231N02013R-G Q?
+U 1 1 613E0C8E
+P 2800 6775
+F 0 "Q?" H 3005 6821 50  0000 L CNN
+F 1 "XP231N02013R-G" H 3005 6730 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 3000 6700 50  0001 L CIN
+F 3 "" H 2800 6775 50  0001 L CNN
+	1    2800 6775
+	1    0    0    -1  
+$EndComp
+Connection ~ 2900 6975
 $EndSCHEMATC
