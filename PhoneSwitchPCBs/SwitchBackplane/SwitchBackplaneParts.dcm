@@ -42,6 +42,11 @@ K single opamp
 F https://www.ti.com/lit/ds/symlink/tl074.pdf
 $ENDCMP
 #
+$CMP TPA3144D2PWPR
+D 6-W Inductor Free Stereo (BTL) Class-D Audio Amplifier with Ultra Low EMI and AGL
+F https://www.ti.com/lit/ds/symlink/tpa3144d2.pdf
+$ENDCMP
+#
 $CMP V3FM12
 D 120V 3A Schottky Barrier Rectifier Diode, SMF(DO-219AB)
 K diode Schottky
