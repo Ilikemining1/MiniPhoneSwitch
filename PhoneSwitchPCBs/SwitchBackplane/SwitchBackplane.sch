@@ -4370,49 +4370,7 @@ Wire Wire Line
 	3550 7375 4000 7375
 Wire Wire Line
 	4000 6975 3550 6975
-Wire Wire Line
-	3550 6975 3550 7200
 Connection ~ 3550 7375
-$Comp
-L power:GND #PWR?
-U 1 1 65949E95
-P 2900 7275
-F 0 "#PWR?" H 2900 7025 50  0001 C CNN
-F 1 "GND" H 2905 7102 50  0000 C CNN
-F 2 "" H 2900 7275 50  0001 C CNN
-F 3 "" H 2900 7275 50  0001 C CNN
-	1    2900 7275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 659D262B
-P 3375 7200
-F 0 "R?" V 3450 7200 50  0000 C CNN
-F 1 "36k" V 3300 7200 50  0000 C CNN
-F 2 "" H 3375 7200 50  0001 C CNN
-F 3 "~" H 3375 7200 50  0001 C CNN
-	1    3375 7200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 659D3085
-P 3075 7200
-F 0 "R?" V 3150 7200 50  0000 C CNN
-F 1 "75k" V 3000 7200 50  0000 C CNN
-F 2 "" H 3075 7200 50  0001 C CNN
-F 3 "~" H 3075 7200 50  0001 C CNN
-	1    3075 7200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3175 7200 3225 7200
-Wire Wire Line
-	2900 7200 2900 7275
-Connection ~ 3225 7200
-Wire Wire Line
-	3225 7200 3275 7200
 $Comp
 L Device:C_Small C?
 U 1 1 65F4081D
@@ -4435,8 +4393,6 @@ F 3 "~" H 3900 6400 50  0001 C CNN
 	1    3900 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3675 6575 3900 6575
 Wire Wire Line
 	4000 6675 3900 6675
 Wire Wire Line
@@ -4703,10 +4659,6 @@ Connection ~ 825  7475
 Wire Wire Line
 	825  7475 825  7675
 Wire Wire Line
-	3225 7075 3225 7200
-Wire Wire Line
-	3225 7075 4000 7075
-Wire Wire Line
 	4000 7175 3900 7175
 Connection ~ 3900 7175
 Wire Wire Line
@@ -4716,8 +4668,6 @@ Wire Wire Line
 Connection ~ 3900 7275
 Wire Wire Line
 	3900 7275 3900 7175
-Wire Wire Line
-	2900 7200 2975 7200
 $Comp
 L Device:R_POT_Small RV?
 U 1 1 68638B88
@@ -4752,11 +4702,6 @@ Wire Wire Line
 	3300 7675 4000 7675
 Wire Wire Line
 	3550 7975 3550 7375
-Wire Wire Line
-	3475 7200 3550 7200
-Connection ~ 3550 7200
-Wire Wire Line
-	3550 7200 3550 7375
 Wire Notes Line
 	650  6000 7750 6000
 Wire Notes Line
@@ -4767,4 +4712,115 @@ Wire Notes Line
 	650  8950 650  6000
 Text Notes 7700 6100 2    50   ~ 0
 Ring Generator
+$Comp
+L Device:R_Small R?
+U 1 1 694CBF4E
+P 2600 6400
+F 0 "R?" V 2675 6400 50  0000 C CNN
+F 1 "1k" V 2525 6400 50  0000 C CNN
+F 2 "" H 2600 6400 50  0001 C CNN
+F 3 "~" H 2600 6400 50  0001 C CNN
+	1    2600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PhoneInterfaceParts:XP231N02013R-G Q?
+U 1 1 69235CAD
+P 2800 6775
+F 0 "Q?" H 3005 6821 50  0000 L CNN
+F 1 "XP231N02013R-G" H 3005 6730 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering" H 3000 6700 50  0001 L CIN
+F 3 "https://www.torexsemi.com/file/XP231N02013R/XP231N02013R.pdf" H 2800 6775 50  0001 L CNN
+	1    2800 6775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 6975 3550 6975
+$Comp
+L Device:R_Small R?
+U 1 1 659D3085
+P 3075 6975
+F 0 "R?" V 3150 6975 50  0000 C CNN
+F 1 "75k" V 3000 6975 50  0000 C CNN
+F 2 "" H 3075 6975 50  0001 C CNN
+F 3 "~" H 3075 6975 50  0001 C CNN
+	1    3075 6975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 659D262B
+P 3375 6975
+F 0 "R?" V 3450 6975 50  0000 C CNN
+F 1 "36k" V 3300 6975 50  0000 C CNN
+F 2 "" H 3375 6975 50  0001 C CNN
+F 3 "~" H 3375 6975 50  0001 C CNN
+	1    3375 6975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65949E95
+P 2900 7200
+F 0 "#PWR?" H 2900 6950 50  0001 C CNN
+F 1 "GND" H 2905 7027 50  0000 C CNN
+F 2 "" H 2900 7200 50  0001 C CNN
+F 3 "" H 2900 7200 50  0001 C CNN
+	1    2900 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 6575 3900 6575
+Wire Wire Line
+	2600 6775 2600 6575
+$Comp
+L power:+3.3V #PWR?
+U 1 1 698BA1FA
+P 2600 6225
+F 0 "#PWR?" H 2600 6075 50  0001 C CNN
+F 1 "+3.3V" H 2615 6398 50  0000 C CNN
+F 2 "" H 2600 6225 50  0001 C CNN
+F 3 "" H 2600 6225 50  0001 C CNN
+	1    2600 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6225 2600 6300
+Connection ~ 3550 6975
+Wire Wire Line
+	3550 6975 3550 7375
+Wire Wire Line
+	3175 6975 3225 6975
+Wire Wire Line
+	2900 6975 2900 7200
+Wire Wire Line
+	2975 6975 2900 6975
+Connection ~ 2900 6975
+Wire Wire Line
+	3225 6975 3225 7075
+Wire Wire Line
+	3225 7075 4000 7075
+Connection ~ 3225 6975
+Wire Wire Line
+	3225 6975 3275 6975
+$Comp
+L Device:R_Small R?
+U 1 1 69C8FA00
+P 2400 6575
+F 0 "R?" V 2475 6575 50  0000 C CNN
+F 1 "100" V 2325 6575 50  0000 C CNN
+F 2 "" H 2400 6575 50  0001 C CNN
+F 3 "~" H 2400 6575 50  0001 C CNN
+	1    2400 6575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 6575 2600 6575
+Connection ~ 2600 6575
+Wire Wire Line
+	2600 6575 2600 6500
+Wire Wire Line
+	2300 6575 2200 6575
+Text Label 2200 6575 2    50   ~ 0
+RGE
 $EndSCHEMATC
