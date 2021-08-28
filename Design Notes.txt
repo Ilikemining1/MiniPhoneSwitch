@@ -62,7 +62,11 @@ Electronic Controlled Electromechanical Switch:
 					8 DTMF Decoder Sense (Input)
 					2 Digits Ready Sense (Input) (Interrupt)
 					8 Tone Select (Output)
-				Total: 30 Inputs (12 Interrupts), 53 Outputs, Total 83 GPIO
+				Other:
+					SPI:
+						3 Dedicated SPI Pins (MOSI, MISO, and SCK)
+						5 CS Pins
+				Total: 30 Inputs (12 Interrupts), 58 Outputs, Total 88 GPIO
 				This is an estimate and will likely change with time and the design.  
 				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf, XRA1403IG24TR-F https://www.mouser.com/datasheet/2/146/XRA1403_100_092011-1889074.pdf
 		Power Supply:
@@ -71,4 +75,4 @@ Electronic Controlled Electromechanical Switch:
 			Additional dual +-5v for tone generator opamps
 			PDME1-S12-D5-S https://www.mouser.com/datasheet/2/670/pdme1_s-1595987.pdf
 			OKL-T/1-W12N-C https://www.mouser.com/datasheet/2/281/1/okl_t1_w12-1847213.pdf
-			
+			PMV65XP https://www.mouser.com/datasheet/2/916/PMV65XP-1600247.pdf
