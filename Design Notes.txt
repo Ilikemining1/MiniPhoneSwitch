@@ -45,7 +45,7 @@ Electronic Controlled Electromechanical Switch:
 			Tone Generator:
 				4 Wien Bridge Oscillators, 350Hz, 440Hz, 480Hz, and 620Hz
 				74HC4316 to mix frequencies https://www.mouser.com/datasheet/2/916/74HC_HCT4316-1319536.pdf
-				TL074 OP Amp https://www.ti.com/lit/ds/symlink/tl071h.pdf
+				TL074, TL071 OP Amp https://www.ti.com/lit/ds/symlink/tl071h.pdf
 		Microcontroller:
 			Pin requirements:
 				Trunks:
@@ -68,7 +68,7 @@ Electronic Controlled Electromechanical Switch:
 						5 CS Pins
 				Total: 30 Inputs (12 Interrupts), 58 Outputs, Total 88 GPIO
 				This is an estimate and will likely change with time and the design.  
-				IO Expanders:  MCP23S17 https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf, XRA1403IG24TR-F https://www.mouser.com/datasheet/2/146/XRA1403_100_092011-1889074.pdf
+				IO Expanders: XRA1403IG24TR-F https://www.mouser.com/datasheet/2/146/XRA1403_100_092011-1889074.pdf
 		Power Supply:
 			-48v supply for battery voltage
 			12v supply for everything else, used to produce 5v and 3.3v rails
