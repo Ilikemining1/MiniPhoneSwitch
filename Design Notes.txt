@@ -50,12 +50,13 @@ Electronic Controlled Electromechanical Switch:
 			Pin requirements:
 				Trunks:
 					2 Ring Sense (Input) (Interrupt)
-					4 Trunk Routing (Output)
+					2 Hook Status (Input) (Interrupt)
+					6 Trunk Routing (Output)
 					2 Trunk Module Detect (Input)
 				Stations:
 					8 Ring Enable (Output)
 					8 Hook Detect / Dial Pulse (Input) (Interrupt)
-					32 Call Routing (Output)
+					24 Call Routing (Output)
 					8 Station Module Detect (Input)
 					1 Ring Gen Enable
 				Tone Banks:
@@ -64,9 +65,8 @@ Electronic Controlled Electromechanical Switch:
 					8 Tone Select (Output)
 				Other:
 					SPI:
-						3 Dedicated SPI Pins (MOSI, MISO, and SCK)
-						5 CS Pins
-				Total: 30 Inputs (12 Interrupts), 58 Outputs, Total 88 GPIO
+						4 CS Pins (Output)
+				Total: 32 Inputs (14 Interrupts), 51 Outputs, Total 83 GPIO
 				This is an estimate and will likely change with time and the design.  
 				IO Expanders: XRA1403IG24TR-F https://www.mouser.com/datasheet/2/146/XRA1403_100_092011-1889074.pdf
 		Power Supply:
