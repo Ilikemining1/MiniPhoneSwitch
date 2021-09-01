@@ -2007,11 +2007,6 @@
       (net 158 "Net-(J12-Pad3)"))
     (pad 1 thru_hole oval (at -8.89 -24.13) (size 1.7 1.7) (drill 1.02) (layers *.Cu *.Mask)
       (net 159 "Net-(J12-Pad2)"))
-    (model ${KIPRJMOD}/Pico.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Imported_Parts:FS28200C2 (layer F.Cu) (tedit 0) (tstamp 61303CDE)
