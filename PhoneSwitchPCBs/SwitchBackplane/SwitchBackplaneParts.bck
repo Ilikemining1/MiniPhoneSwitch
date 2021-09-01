@@ -36,6 +36,12 @@ K Diode
 F https://www.mouser.com/datasheet/2/916/PMBD7000-1320244.pdf
 $ENDCMP
 #
+$CMP PMV65XP
+D -4.3A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.mouser.com/datasheet/2/916/PMV65XP-1600247.pdf
+$ENDCMP
+#
 $CMP TL071
 D Single Operational Amplifier
 K single opamp
