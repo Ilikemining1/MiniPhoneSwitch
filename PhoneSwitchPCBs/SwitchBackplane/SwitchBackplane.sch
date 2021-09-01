@@ -8747,4 +8747,100 @@ Wire Wire Line
 	8500 4125 8500 4250
 Wire Wire Line
 	8500 4450 8500 4600
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 614C29A5
+P 850 14125
+F 0 "H1" H 950 14174 50  0000 L CNN
+F 1 "GND" H 950 14083 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 850 14125 50  0001 C CNN
+F 3 "~" H 850 14125 50  0001 C CNN
+	1    850  14125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 614C3473
+P 1175 14125
+F 0 "H2" H 1275 14174 50  0000 L CNN
+F 1 "GND" H 1275 14083 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1175 14125 50  0001 C CNN
+F 3 "~" H 1175 14125 50  0001 C CNN
+	1    1175 14125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 614C3737
+P 1500 14125
+F 0 "H3" H 1600 14174 50  0000 L CNN
+F 1 "GND" H 1600 14083 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1500 14125 50  0001 C CNN
+F 3 "~" H 1500 14125 50  0001 C CNN
+	1    1500 14125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 614C3AB0
+P 1825 14125
+F 0 "H4" H 1925 14174 50  0000 L CNN
+F 1 "GND" H 1925 14083 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1825 14125 50  0001 C CNN
+F 3 "~" H 1825 14125 50  0001 C CNN
+	1    1825 14125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 614C3D3A
+P 2150 14125
+F 0 "H5" H 2250 14174 50  0000 L CNN
+F 1 "GND" H 2250 14083 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 2150 14125 50  0001 C CNN
+F 3 "~" H 2150 14125 50  0001 C CNN
+	1    2150 14125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 614C405D
+P 2475 14125
+F 0 "H6" H 2575 14174 50  0000 L CNN
+F 1 "GND" H 2575 14083 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 2475 14125 50  0001 C CNN
+F 3 "~" H 2475 14125 50  0001 C CNN
+	1    2475 14125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0202
+U 1 1 614C42F1
+P 1675 14300
+F 0 "#PWR0202" H 1675 14050 50  0001 C CNN
+F 1 "GND" H 1680 14127 50  0000 C CNN
+F 2 "" H 1675 14300 50  0001 C CNN
+F 3 "" H 1675 14300 50  0001 C CNN
+	1    1675 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 14225 2150 14225
+Connection ~ 1175 14225
+Wire Wire Line
+	1175 14225 850  14225
+Connection ~ 1500 14225
+Wire Wire Line
+	1500 14225 1175 14225
+Connection ~ 1825 14225
+Wire Wire Line
+	1825 14225 1675 14225
+Connection ~ 2150 14225
+Wire Wire Line
+	2150 14225 1825 14225
+Wire Wire Line
+	1675 14300 1675 14225
+Connection ~ 1675 14225
+Wire Wire Line
+	1675 14225 1500 14225
 $EndSCHEMATC
