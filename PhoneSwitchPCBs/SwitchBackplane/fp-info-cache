@@ -1,4 +1,4 @@
-19003951453633121
+19020254460981368
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51667,6 +51667,13 @@ heatsink
 2
 1
 Imported_Parts
+35WR100KLFTR
+35W
+Variable Resistor
+0
+3
+3
+Imported_Parts
 00346605
 0034.6605-3
 Fuse
@@ -51674,12 +51681,33 @@ Fuse
 2
 2
 Imported_Parts
+FS28200C2
+FS28-200-C2-1
+Transformer
+0
+8
+8
+Imported_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+Imported_Parts
+NFZ2MSM101SN10B
+NFZ2M L=2.0 W=1.6 T=0.9
+Filter
+0
+2
+2
+Imported_Parts
+OKLT1W12NC
+OKL-T/1-W12N-C
+Power Supply
+0
+12
+12
 Imported_Parts
 PDME1S12D5S
 19.65*6*10.16mm
@@ -51709,6 +51737,34 @@ Connector
 2
 2
 Imported_Parts
+SOIC127P1032X265-18N
+18 LEAD SOIC 0.300"
+Integrated Circuit
+0
+18
+18
+Imported_Parts
+SOP65P640X110-20N
+SOT360-1
+Integrated Circuit
+0
+20
+20
+Imported_Parts
+SOP65P640X120-24N
+XRA1403IG24TR-F
+Integrated Circuit
+0
+24
+24
+Imported_Parts
+SOP65P640X120-29N
+PWP (R-PDSO-G28)-
+Integrated Circuit
+0
+29
+29
+Imported_Parts
 SOT65P210X110-5N
 SC−88A (SC−70) CASE 419A−02 ISSUE L
 Integrated Circuit
@@ -51722,6 +51778,20 @@ Integrated Circuit
 0
 5
 5
+Imported_Parts
+TC33X-2_1
+TC33X-2_1
+Variable Resistor
+0
+3
+3
+Imported_Parts
+VI0421550000G
+VI0421550000G-3
+Connector
+0
+4
+4
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
