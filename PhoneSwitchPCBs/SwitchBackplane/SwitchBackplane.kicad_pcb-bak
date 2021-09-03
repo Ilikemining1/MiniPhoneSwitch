@@ -7374,7 +7374,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A41F) (tstamp 61303DBA)
-    (at 93.472 91.313 90)
+    (at 90.805 91.313 90)
     (descr "Through hole straight socket strip, 2x11, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x11 2.54mm double row")
     (path /61EA840B)
@@ -7456,7 +7456,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A41F) (tstamp 6130377E)
-    (at 118.872 79.883 270)
+    (at 116.205 79.883 270)
     (descr "Through hole straight socket strip, 2x11, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x11 2.54mm double row")
     (path /61700BB4)
