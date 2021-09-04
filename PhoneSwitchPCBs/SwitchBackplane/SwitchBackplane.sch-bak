@@ -8843,4 +8843,32 @@ Wire Wire Line
 Connection ~ 1675 14225
 Wire Wire Line
 	1675 14225 1500 14225
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 618D3DAF
+P 2825 14125
+F 0 "H7" H 2925 14174 50  0000 L CNN
+F 1 "GND" H 2925 14083 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 2825 14125 50  0001 C CNN
+F 3 "~" H 2825 14125 50  0001 C CNN
+	1    2825 14125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 618D418D
+P 3175 14125
+F 0 "H8" H 3275 14174 50  0000 L CNN
+F 1 "GND" H 3275 14083 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3175 14125 50  0001 C CNN
+F 3 "~" H 3175 14125 50  0001 C CNN
+	1    3175 14125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 14225 2825 14225
+Connection ~ 2475 14225
+Connection ~ 2825 14225
+Wire Wire Line
+	2825 14225 2475 14225
 $EndSCHEMATC

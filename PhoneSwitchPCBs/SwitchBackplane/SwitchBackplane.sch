@@ -3919,7 +3919,6 @@ Wire Wire Line
 	5700 8975 5775 8975
 Wire Wire Line
 	5775 8975 5775 9175
-Connection ~ 5775 9175
 Wire Wire Line
 	5500 8975 5450 8975
 Wire Wire Line
@@ -4047,11 +4046,6 @@ F 3 "~" H 6025 9675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6125 9175 6200 9175
-Wire Wire Line
-	5775 9175 5925 9175
-Wire Wire Line
-	5925 9675 5775 9675
-Connection ~ 5775 9675
 $Comp
 L Device:C_Small C50
 U 1 1 648968D8
@@ -8871,4 +8865,18 @@ Connection ~ 2475 14225
 Connection ~ 2825 14225
 Wire Wire Line
 	2825 14225 2475 14225
+Wire Wire Line
+	5850 9175 5850 9675
+Wire Wire Line
+	5850 9675 5775 9675
+Connection ~ 5775 9675
+Wire Wire Line
+	5925 9175 5850 9175
+Wire Wire Line
+	5925 9675 5925 9275
+Wire Wire Line
+	5925 9275 5775 9275
+Wire Wire Line
+	5775 9275 5775 9175
+Connection ~ 5775 9175
 $EndSCHEMATC
