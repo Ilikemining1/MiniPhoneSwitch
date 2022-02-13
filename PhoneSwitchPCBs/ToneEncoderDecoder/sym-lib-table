@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "PhoneInterfaceParts")(type "KiCad")(uri "${KIPRJMOD}/PhoneInterfaceParts.kicad_sym")(options "")(descr ""))
+  (lib (name "SwitchBackplaneParts")(type "KiCad")(uri "${KIPRJMOD}/SwitchBackplaneParts.kicad_sym")(options "")(descr ""))
+)

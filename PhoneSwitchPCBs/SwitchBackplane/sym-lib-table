@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name SwitchBackplaneParts)(type Legacy)(uri ${KIPRJMOD}/SwitchBackplaneParts.lib)(options "")(descr ""))
-  (lib (name PhoneInterfaceParts)(type Legacy)(uri ${KIPRJMOD}/PhoneInterfaceParts.lib)(options "")(descr ""))
-  (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
-)
