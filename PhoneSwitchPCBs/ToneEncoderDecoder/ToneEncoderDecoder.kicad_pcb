@@ -5734,6 +5734,9 @@
   )
 
   (gr_rect (start 24.5 17.5) (end 117.5 87.5) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp c322babf-d2a6-49f8-89bf-650b280bca67))
+  (gr_text "JLCJLCJLCJLC" (at 26.2 50.9 90) (layer "B.SilkS") (tstamp aade9b49-ca5a-42a0-aec3-2c819e72c349)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "TeleTech MiniSwitch\nDTMF Decoder and Call Progress Tone Generator" (at 60.9 83.9) (layer "F.SilkS") (tstamp 44105186-101d-4b5c-b911-2b008155ec0a)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
